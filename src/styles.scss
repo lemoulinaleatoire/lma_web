@@ -1,0 +1,639 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ============================================================
+   CONSTRUCTIVISM DESIGN SYSTEM
+   Inspired by Russian Constructivism (Rodchenko, Lissitzky)
+   ============================================================ */
+
+:root {
+  /* 老纸质底色，比 #e8e8e8 暖一档 */
+  --bg: #ebe6dc;
+  --bg-deep: #e2dccf;
+  --paper: #f6f1e6;
+
+  /* 文本：从纯黑改成深墨，避免数字屏的机械感 */
+  --text: #171312;
+  --muted: #5b544c;
+
+  /* 三主色：红色微调更接近 Rodchenko 朱砂、黄色更深 */
+  --accent: #d62828;
+  --accent-yellow: #f5b700;
+  --accent-black: #171312;
+  --accent-ink: #1d1f3a;
+
+  --border: #171312;
+  --card-bg: #f6f1e6;
+  --link: #d62828;
+
+  --max-width: 960px;
+  --max-width-wide: 1240px;
+
+  --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  --font-display: 'Archivo Narrow', 'Archivo', 'Noto Sans SC', 'PingFang SC', sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a { color: var(--link); text-decoration: none; transition: background 0.12s ease, color 0.12s ease; }
+a:hover { text-decoration: none; background: var(--accent); color: #fff; }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+main {
+  min-height: 80vh;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* Typography — Bold, industrial, sans-serif only */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.15;
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+h1 { font-size: 2.4rem; margin-bottom: 1rem; }
+h2 {
+  font-size: 1.6rem;
+  margin: 2.5rem 0 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+h3 { font-size: 1.25rem; margin: 1.5rem 0 0.5rem; }
+p { margin-bottom: 1.2rem; }
+
+/* Section title — Lissitzky 钢轨：粗短红条 + 细长延伸黑线 */
+h2::before {
+  content: '';
+  display: block;
+  width: 3.5rem;
+  height: 8px;
+  background: var(--accent);
+  flex-shrink: 0;
+  align-self: center;
+  transform: translateY(-0.1em);
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  align-self: center;
+  transform: translateY(-0.1em);
+  opacity: 0.4;
+}
+
+blockquote {
+  border-left: 6px solid var(--accent);
+  padding: 0.75rem 0 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  color: #333;
+  font-weight: 500;
+  background: #f4f4f4;
+}
+
+/* Tables — Constructivist grid */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border: 2px solid var(--border);
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+th { background: var(--accent-black); color: #fff; font-weight: 700; text-transform: uppercase; font-size: 0.85em; }
+tr:nth-child(even) { background: #f0f0f0; }
+
+/* Code blocks */
+code {
+  font-size: 0.9em;
+  background: #111;
+  color: #f2c500;
+  padding: 0.15em 0.4em;
+  font-family: var(--font-mono);
+}
+pre {
+  background: #111;
+  color: #e0e0e0;
+  padding: 1rem;
+  overflow-x: auto;
+  border-left: 6px solid var(--accent-yellow);
+  margin: 1.5rem 0;
+}
+pre code { background: none; padding: 0; color: #e0e0e0; }
+
+/* Footnotes */
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--border);
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
+/* ============================================================
+   CONTENT ANNOTATION SYSTEM — Constructivist recoloring
+   ============================================================ */
+
+.term-original {
+  display: inline;
+  font-weight: 600;
+  color: #333;
+  &::before { content: '⟨'; color: var(--accent); font-style: normal; font-weight: 900; }
+  &::after { content: '⟩'; color: var(--accent); font-style: normal; font-weight: 900; }
+}
+
+.author-note {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: #f4f4f4;
+  border-left: 6px solid var(--accent-yellow);
+  font-size: 0.92em;
+  color: #333;
+  &::before {
+    content: '作者注';
+    display: block;
+    font-size: 0.75em;
+    font-weight: 900;
+    color: var(--accent-black);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+    background: var(--accent-yellow);
+    display: inline-block;
+    padding: 0.1em 0.4em;
+  }
+  p { margin-bottom: 0.5rem; }
+}
+
+.translator-note {
+  margin: 1.2rem 0;
+  padding: 0.75rem 1rem;
+  background: #f4f4f4;
+  border-left: 6px solid var(--accent);
+  font-size: 0.92em;
+  color: #333;
+  &::before {
+    content: '译者注';
+    display: block;
+    font-size: 0.75em;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+    background: var(--accent);
+    display: inline-block;
+    padding: 0.1em 0.4em;
+  }
+  p { margin-bottom: 0.5rem; }
+}
+
+.editor-note {
+  margin: 1rem 0;
+  padding: 0.6rem 0.9rem;
+  background: #f4f4f4;
+  border-left: 6px solid var(--accent-black);
+  font-size: 0.9em;
+  color: #333;
+  &::before {
+    content: '编者按';
+    display: block;
+    font-size: 0.75em;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+    background: var(--accent-black);
+    display: inline-block;
+    padding: 0.1em 0.4em;
+  }
+}
+
+.references {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--border);
+  font-size: 0.88em;
+  color: var(--muted);
+  &::before {
+    content: '参考文献';
+    display: block;
+    font-size: 1.1em;
+    font-weight: 900;
+    color: var(--text);
+    margin-bottom: 1rem;
+    background: var(--accent-yellow);
+    display: inline-block;
+    padding: 0.2em 0.6em;
+  }
+  li { margin-bottom: 0.4rem; padding-left: 0.5rem; }
+}
+
+.endnotes {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--border);
+  font-size: 0.88em;
+  color: var(--muted);
+  counter-reset: endnote;
+  &::before {
+    content: '注释';
+    display: block;
+    font-size: 1.1em;
+    font-weight: 900;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    background: var(--accent);
+    color: #fff;
+    display: inline-block;
+    padding: 0.2em 0.6em;
+  }
+  p { padding-left: 1.5rem; text-indent: -1.5rem; margin-bottom: 0.3rem; }
+  p::before {
+    counter-increment: endnote;
+    content: '[' counter(endnote) '] ';
+    font-weight: 900;
+    color: var(--accent);
+  }
+}
+
+/* Article download card */
+.article-download-card {
+  background: #fff;
+  border: 2px solid var(--border);
+  padding: 1.25rem;
+  margin: 2rem 0;
+  position: relative;
+  h4 { margin-top: 0; font-weight: 900; }
+}
+.article-download-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 24px 24px 0;
+  border-color: transparent var(--accent) transparent transparent;
+}
+
+/* Friend cards — Constructivist */
+.friend-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 2px solid var(--border);
+  background: #fff;
+  margin-bottom: 0.5rem;
+  .friend-avatar {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border: 2px solid var(--border);
+    border-radius: 0;
+  }
+  p { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.9em; }
+}
+.friend-card:hover {
+  background: #f4f4f4;
+}
+
+/* Article cards list */
+.article-list { list-style: none; }
+.article-card-item {
+  padding: 1.5rem 0;
+  border-bottom: 2px solid var(--border);
+  .meta { font-size: 0.85em; color: var(--muted); margin-top: 0.25rem; font-weight: 500; }
+  .tags { margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .tag {
+    font-size: 0.75em;
+    background: var(--accent-black);
+    color: #fff;
+    padding: 0.2em 0.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Detail page */
+.article-header { margin-bottom: 2rem; }
+.article-meta { color: var(--muted); font-size: 0.9em; margin-bottom: 2rem; font-weight: 500; }
+.article-content {
+  img { max-width: 100%; border: 2px solid var(--border); margin: 1rem 0; }
+  hr { border: none; border-top: 3px solid var(--border); margin: 2.5rem 0; position: relative; }
+  hr::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 6rem;
+    height: 3px;
+    background: var(--accent);
+  }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figcaption { font-size: 0.85em; color: var(--muted); margin-top: 0.5rem; font-weight: 500; }
+}
+
+/* ============================================================
+   CONSTRUCTIVIST GEOMETRIC UTILITY CLASSES
+   ============================================================ */
+
+/* Bold border boxes */
+.constr-box {
+  border: 3px solid var(--border);
+  background: #fff;
+  position: relative;
+}
+.constr-box-red {
+  border: 3px solid var(--accent);
+  background: #fff;
+}
+.constr-box-yellow {
+  border: 3px solid var(--accent-yellow);
+  background: #fff;
+}
+
+/* Diagonal stripe background */
+.constr-diagonal {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 8px,
+    rgba(0,0,0,0.06) 8px,
+    rgba(0,0,0,0.06) 16px
+  );
+}
+
+/* Red accent bar */
+.constr-bar {
+  display: inline-block;
+  width: 3rem;
+  height: 8px;
+  background: var(--accent);
+}
+.constr-bar-yellow {
+  display: inline-block;
+  width: 3rem;
+  height: 8px;
+  background: var(--accent-yellow);
+}
+
+/* Rotated text */
+.constr-rotate {
+  display: inline-block;
+  transform: rotate(-5deg);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Constructivist button */
+.constr-btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 3px solid var(--accent);
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s, color 0.12s;
+}
+.constr-btn:hover {
+  background: #fff;
+  color: var(--accent);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 0 var(--accent-black);
+}
+.constr-btn:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 0 var(--accent-black);
+}
+.constr-btn-outline {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 3px solid var(--border);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s, color 0.12s, border-color 0.12s;
+}
+.constr-btn-outline:hover {
+  background: var(--accent-black);
+  color: #fff;
+  border-color: var(--accent-black);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 0 var(--accent);
+}
+.constr-btn-outline:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 0 var(--accent);
+}
+
+/* Triangle decoration (CSS border trick) */
+.constr-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.constr-triangle-red {
+  border-width: 0 20px 20px 0;
+  border-color: transparent var(--accent) transparent transparent;
+}
+.constr-triangle-yellow {
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent var(--accent-yellow) transparent;
+}
+
+/* Circle */
+.constr-circle {
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* ============================================================
+   AVANT-GARDE EXPERIMENTAL UTILITIES
+   ============================================================ */
+
+/* Marquee — 工业带横滚 */
+.constr-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.constr-marquee__track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: constr-scroll-x 40s linear infinite;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.constr-marquee__track > span { padding: 0 0.55rem; }
+@keyframes constr-scroll-x {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Halftone 网点纹理 */
+.constr-halftone {
+  background-image: radial-gradient(var(--accent-black) 1px, transparent 1.6px);
+  background-size: 8px 8px;
+  background-position: 0 0;
+}
+.constr-halftone-red {
+  background-image: radial-gradient(var(--accent) 1.2px, transparent 1.8px);
+  background-size: 7px 7px;
+}
+.constr-halftone-yellow {
+  background-image: radial-gradient(var(--accent-yellow) 1.4px, transparent 2px);
+  background-size: 6px 6px;
+}
+
+/* SVG noise 噪点 — 内联避免外部请求 */
+.constr-noise {
+  position: relative;
+}
+.constr-noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 160px 160px;
+}
+
+/* 对角切角 (clip-path) */
+.constr-cut-tr { clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%); }
+.constr-cut-br { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%); }
+.constr-cut-bl { clip-path: polygon(0 0, 100% 0, 100% 100%, 24px 100%, 0 calc(100% - 24px)); }
+.constr-cut-tl { clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px); }
+
+/* 垂直运行的编辑标签 */
+.constr-vlabel {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* 子元素叠印 */
+.constr-blend > * {
+  mix-blend-mode: multiply;
+}
+
+/* 编辑性 section 头部组件 */
+.constr-sect-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0 1.25rem;
+  font-family: var(--font-display);
+}
+.constr-sect-label__no {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.constr-sect-label__rule {
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--border);
+  opacity: 0.4;
+}
+.constr-sect-label__rule--thick {
+  height: 6px;
+  background: var(--accent);
+  opacity: 1;
+  flex: 0 0 2.5rem;
+}
+.constr-sect-label__title {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  flex-shrink: 0;
+}
+.constr-sect-label__meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+/* mono 编辑标签（小写复用） */
+.constr-mono {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+/* 「钢轨」分隔条 */
+.constr-rail {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.constr-rail::before { content: ''; flex: 0 0 6rem; height: 6px; background: var(--accent); }
+.constr-rail::after  { content: ''; flex: 1; height: 1px; background: var(--border); opacity: 0.55; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  main { padding: 1rem 1rem 3rem; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.3rem; }
+  .constr-sect-label { flex-wrap: wrap; gap: 0.5rem; }
+  .constr-sect-label__rule { display: none; }
+}

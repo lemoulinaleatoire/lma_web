@@ -1,0 +1,26 @@
+[
+  {
+    "name": "新立场 Nouvelles Positions",
+    "url": "https://nouvellespositions.com/",
+    "description": "当代理论与政治写作的中文新立场",
+    "avatar": "/img/avatars/nouvelles-positions.png"
+  },
+  {
+    "name": "CCRU",
+    "url": "http://www.ccru.net/index.htm",
+    "description": "Cybernetic Culture Research Unit — 控制论文化研究小组的原始档案",
+    "avatar": "/img/avatars/ccru.png"
+  },
+  {
+    "name": "中文马克思主义文库",
+    "url": "https://www.marxists.org/chinese/marx/index.htm",
+    "description": "马克思主义经典与左翼思潮的中文文库",
+    "avatar": "/img/avatars/marxists-cn.png"
+  },
+  {
+    "name": "TIMEWAR",
+    "url": "https://www.timewar.org/",
+    "description": "围绕时间、加速与未来的实验性写作站点",
+    "avatar": "/img/avatars/timewar.png"
+  }
+]

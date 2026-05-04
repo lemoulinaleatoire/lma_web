@@ -1,0 +1,8 @@
+[
+  { "icon": "zhihu", "url": "https://www.zhihu.com/people/yourname", "label": "知乎" },
+  { "icon": "github", "url": "https://github.com/yourname", "label": "GitHub" },
+  { "icon": "scholar", "url": "https://scholar.google.com/citations?user=XXXX", "label": "Google Scholar" },
+  { "icon": "researchgate", "url": "https://www.researchgate.net/profile/XXXX", "label": "ResearchGate" },
+  { "icon": "envelope", "url": "mailto:yourname@example.com", "label": "邮箱" },
+  { "icon": "rss", "url": "/index.xml", "label": "RSS 订阅" }
+]
