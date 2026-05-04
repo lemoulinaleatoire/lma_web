@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://api.lemoulinaleatoire.org/api'
+  apiUrl: 'https://lmaweb-production.up.railway.app/api'
 };
