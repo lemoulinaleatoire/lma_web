@@ -1,28 +1,31 @@
 ---
 title: "译坊 I 行动者—网络理论是一种资本批判理论吗？"
 date: 2026-02-12
+lastmod: 2026-02-12
 type: "translation"
-author: "随机轮编辑部"
+author: "Fabian Muniesa"
 tags: ["拉图尔", "德勒兹", "卡隆", "ANT", "资本主义批判", "翻译研究", "生态学"]
 cover: "/img/covers/译坊-i-行动者-网络理论是一种资本批判理论吗.jpg"
 wordcount: 16189
+license: "CC BY-NC 4.0"
 ---
 
-译者按
-
-Translator Notes
+## 译者按
+> Translator Notes
 
 本文为The Routledge Companion to Actor-Network Theory第6篇，作者围绕ANT与资本批判之关系的这一核心问题展开研究，通过分析ANT前后三段时期的理论发展，探究各时期ANT对资本、市场的研究侧重与局限，指出ANT虽未将资本作为核心研究对象，却具备将资本视为符号学的转译操作的批判潜力，最后呼吁应构建（ANT式）资本化人类学，开发ANT的资本批判潜力。总体而言，这篇文章能帮助读者认识到ANT的理论历史和智识潜力，并能启发ANT在相关方向的应用，故译介此文，以飨读者。
 
 （推文标题与正文标题采用了两种译法）
 
-**翻译&文案：随机轮编辑部**
+**翻译&文案**：随机轮编辑部
 
-***出处：The Routledge Companion to Actor-Network Theory / Chapter6***
+**出处**：The Routledge Companion to Actor-Network Theory / Chapter6
 
-**ANT是对资本的批判吗？**
+---
 
-Fabian Muniesa
+# ANT是对资本的批判吗？
+
+**Fabian Muniesa**
 
 行动者-网络理论ANT能否被视为、转化为，或者用于对“资本”capital的批判？进而，是否也能用于对“资本家”the capitalist、“资本主义的”the capitalistic或“资本主义”capitalism整体的批判？ANT在多大程度上可被承认为对资本的批判，取决于多重因素。首先，一项贡献的明确目的，显然主要由批判者本人的意图所决定，而与其所宣称的智识框架无关。但更关键的是，“ANT”、“资本”与“批判”这些术语本身的含义不断变化，导致我们无法建立清晰的解释准则。
 

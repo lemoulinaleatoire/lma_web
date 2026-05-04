@@ -1,18 +1,18 @@
 ---
 title: "译坊 I 阿尔都塞《论理论工作：困难与资源》"
 date: 2026-02-23
+lastmod: 2026-02-23
 type: "translation"
-author: "随机轮编辑部"
+author: "Louis Althusser"
 tags: ["阿尔都塞", "剥削与阶级", "帝国主义与殖民"]
 cover: "/img/covers/译坊-i-阿尔都塞-论理论工作-困难与资源.jpg"
 wordcount: 24027
+license: "CC BY-NC 4.0"
 ---
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FEPSzicRGl00WC2iaibKwLqbZvdRhOgz27HeBST2Eym99u9ibN0pzaicpvX0HO5Ap7h2MI9iboU6X9rYlQVM7Jy94s1lKlMOOQMdzbibWn3icIYMkJ4/640?wx_fmt=png)
+## 译者按
 
-**译者按**
-
-Translator Notes  
+> Translator Notes  
 
 本文撰于1966年底，处于阿尔都塞思想转向的关键时期：一方面，他仍极力维护作为“理论实践”之核心的科学生产逻辑；另一方面，他也开始深刻意识到阶级斗争等“政治实践”在理论生产中发挥的至关重要、乃至“领先于理论”的作用。阿尔都塞明确指出，科学发现与阶级斗争的政治干预往往“领先于”现有理论，是以“实践状态”存在的真实资源。理论工作的使命并非冥想真理，而是通过艰苦的逻辑加工，将这些领先于时代的实践经验“提炼”为严整的科学认识。这种对现实优先性的体认，预示了他在自我批评时期后将“政治”置于理论轴心的深刻转变——即从“哲学作为关于理论实践的理论”转向“哲学归根结底是理论中的阶级斗争”。
 
@@ -20,13 +20,16 @@ Translator Notes
 
 如若想进一步了解阿尔都塞从早期“理论主义”转向坚持政治与阶级斗争之优先性的思想路径，建议参阅陈越老师为《怎么办》一书撰写的“译后记”，或阅读公众号合集《阿尔都塞的对象》一文（巴利巴尔著）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FEPSzicRGl01TpS9XvcbsyzJiampfNNcibwFeFw9fcqU9RtpwDonn7hPZ6scMpjxABgVJQq1wrPfUDgOUyfcf9QCgFXVjtoIXBZA3tCpiakcXQ4/640?wx_fmt=png)
 
-**翻译&文案：随机轮编辑部**
+**翻译&文案**：随机轮编辑部
 
-***出处：《Philosophy and the Spontaneous Philosophy of the Scientists》第二章***
+**出处**：《Philosophy and the Spontaneous Philosophy of the Scientists》第二章
 
-**论理论工作：困难与资源**
+---
+
+# 论理论工作：困难与资源
+
+**Louis Althusser**
 
 我希望在有限的篇幅内阐发在马克思主义原理的理论叙述工作*theoretical exposition*中所遇到的某些困难，然后再对我们所掌握的资源——其中一些是众所周知的，另一些则有时被误解——进行一次清理*inventory*。
 
@@ -66,7 +69,6 @@ B
 
 理论概念与经验概念的关系，在任何情况下都绝非外部性关系（理论概念并未被“还原”为经验数据），也不是演绎关系（经验概念并非从理论概念中推导出来的），更不是包摄/归并*subsumption*关系（即经验概念并非理论概念之普遍性的“补充性特殊性” ——即具体的案例）。相反，应当说（在某种类似于马克思谈论“剩余价值的实现” 的意义上），经验概念在对具体对象的具体认识中“实现”*realize*了理论概念。这种“实现”的辩证法——它与黑格尔关于“理念在具体中的思辨‘实现’”这一概念毫无关系——显然需要持续的澄清，而这种澄清只能建立在一种关于科学实践及其历史的理论之上。尽管如此，我们还是可以说，对一个具体对象的具体认识，在我们看来确实就是马克思所说的“综合”：即必需的（严格意义上的）理论概念与经过加工的经验概念的结合。如果没有对那些对应于严格意义上理论之抽象-形式概念的特定对象的求助，就不可能产生对一个具体对象的具体认识。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/FEPSzicRGl01XIBdBzicia9f5OdJW1tUOzb0PvPC8kzx84j7b5cU3fzhRCVjK4YuNqU9wEbw0b6zZ6Cs7nq71k1ofonYDKZlLWh3B0ujsEWQR4/640?wx_fmt=jpeg)
 
 目前，这些特定论点足以让我们对理论话语的可能对象做出一种重要的区分。如果我们保留刚才提出的“抽象-形式对象”与“具体-现实对象”之间的区别，我们可以说，一个理论话语可以根据其层次，或者涉及抽象且形式的对象，或者涉及具体且现实的对象。
 
@@ -168,7 +170,6 @@ RESOURCES
 
 以上，便是对“我们应从何处获取马克思主义原理”这一问题的第一种回答：从马克思及其继任者的理论著作中获取。其前提是：第一，要准确识别马克思著作中哪些是马克思主义的；第二，要意识到马克思主义原理在这些著作中，既可能以其本色出现在恰当的理论形式中，也可能以另一种形式——即实践状态*practical state*——出现；最后，要意识到，从马克思及其继任者的著作中“引申”出某些原理（特别是当这些原理处于实践状态时），预设了一种有时必须采取批判性矫正形式的加工提炼。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/FEPSzicRGl0022L4SuWGrw7XJZoLzX93JqhibDw8am25cXxRZqtM02lg5BbiaJ81EOwZFowp4DfeueW9myPWl19cHGjTGz3je1IpziaMl4cGiaAI/640?wx_fmt=jpeg)
 
 2.然而，以上这一切仅涉及马克思主义经典中的理论著作。我们现在必须谈论别的东西：马克思主义的实践著作/产物——即由马克思主义理论与工人运动相结合而诞生的阶级斗争组织的政治实践，及其结果。
 

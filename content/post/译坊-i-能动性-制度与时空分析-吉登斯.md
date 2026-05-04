@@ -1,26 +1,27 @@
 ---
 title: "译坊 I 能动性、制度与时空分析（吉登斯）"
 date: 2026-02-15
+lastmod: 2026-02-15
 type: "translation"
-author: "随机轮编辑部"
+author: "Anthony Giddens"
 tags: ["吉登斯"]
 cover: "/img/covers/译坊-i-能动性-制度与时空分析-吉登斯.jpg"
 wordcount: 10543
+license: "CC BY-NC 4.0"
 ---
 
-译者按
-
-Translator Notes
+## 译者按
+> Translator Notes
 
 这篇文章（原标题agency,institution,and time-space analysis）选自文集Advances in social theory and methodology，为原书第5篇，是英国著名社会学家Anthony Giddens于1981受邀创作的文章。吉登斯从自己的“结构化理论”出发，描述了其对微观—宏观关系的社会学理论洞见和方法论版本。此文精到又简明地体现了吉登斯社会学的理论魅力，是入门者把握吉登斯结构化理论的优秀导引，故译介此文，以飨读者。另：【橙色字段】是译者注。
 
-**翻译&文案：随机轮编辑****部**
+**翻译&文案**：随机轮编辑部
 
-***出处：Advances in social theory and methodology第五章***
+**出处**：Advances in social theory and methodology第五章
 
-**能动性、制度与时空分析**
+# 能动性、制度与时空分析
 
-Anthony Giddens
+**Anthony Giddens**
 
 **文集编者语**
 
@@ -30,8 +31,7 @@ Anthony Giddens
 
 然而，与Harré一样，吉登斯也指出，社会行动者的知识性knowledgeability与能力性capability受到社会行动之非预期后果的限制，而这些非预期后果又制约着社会的再生产。行动者凭借其知识性与能力性再生产系统的结构性特质，但这种再生产受到先前社会行动所产生的非预期后果所施加的约束。
 
-显然，非预期后果在此对社会变迁的解释起到了关键作用，因为正是它们可能决定性地使社会行动偏离既定的结构化路径。不过需要注意的是，从本章来看，“宏观”层面与其说是由微观行动产生的不可预见效应所构成，不如说是一个由（据推测）共同的规则与资源结构所组成的层面，这些结构在社会行动中被持续地重新具体化。![](https://mmbiz.qpic.cn/mmbiz_png/FEPSzicRGl02icgTPLNqsM71WnQ7uPDngiaY1ZAvyicTJibTXE5PEohWeIv7zmHuD4ZQt7NBEI0TLiblzTACcGyIiatMoY2IR8zibFnqJcqS4ichU5Ds/640?wx_fmt=png)
-
+显然，非预期后果在此对社会变迁的解释起到了关键作用，因为正是它们可能决定性地使社会行动偏离既定的结构化路径。不过需要注意的是，从本章来看，“宏观”层面与其说是由微观行动产生的不可预见效应所构成，不如说是一个由（据推测）共同的规则与资源结构所组成的层面，这些结构在社会行动中被持续地重新具体化。
 1
 
 **行动理论与制度分析之间的鸿沟**

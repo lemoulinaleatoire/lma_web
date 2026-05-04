@@ -1,32 +1,30 @@
 ---
 title: "译坊 I 弥合鸿沟：自然科学与社会科学的新联盟（拉图尔 等）"
 date: 2015-03-31
+lastmod: 2015-03-31
 type: "translation"
-author: "随机轮编辑部"
+author: "Tommaso Venturini, Pablo Jensen, Bruno Latour"
 tags: ["拉图尔", "吉登斯", "数字方法", "生态学", "媒介研究"]
 cover: "/img/covers/译坊-i-弥合鸿沟-自然科学与社会科学的新联盟-拉图尔-等.jpg"
 wordcount: 10726
+license: "CC BY-NC 4.0"
 ---
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FEPSzicRGl00bzgjvCODqjkjiaicPJ8HBn5wOZHtPthNp3XEoTghxSq1xn4QbRibAmNv54PhM82aeVb9a6XkJYAz4LD81kl7YD2WV5UXyvAgbT4/640?wx_fmt=png&from=appmsg)
+## 译者按
 
-**译者按**
-
-Translator Notes
+> Translator Notes
 
 本文由Tommaso Venturini、Pablo Jensen与Bruno Latour合著，刊发于《人工社会与社会模拟期刊》JASSS。作者敏锐感知数字革命的巨大影响，在文中深刻反思社会科学研究中传统的微观-宏观模型，指出其方法论与政治层面的双重困境，并立足数字媒介带来的可追踪性变革，呼吁社会科学与自然科学构建全新学科联盟，实现从“模拟”到“测绘”、从“简化解释”到“复杂观察”的研究转向。本文对数字人文研究、数字时代社会科学范式革新、跨学科合作探索具有重要的启发意义，故译介此文，以飨读者。
 
-**翻译&文案：随机轮编辑部**
+**翻译&文案**：随机轮编辑部
 
-***出处：***
+**出处**：Journal of Artificial Societies and Social Simulation 18 (2) 11 <http://jasss.soc.surrey.ac.uk/18/2/11.html>
 
-***Journal of Artificial Societies and Social Simulation 18 (2) 11 <http://jasss.soc.surrey.ac.uk/18/2/11.html>***
+---
 
-弥合鸿沟
+# 弥合鸿沟：自然科学与社会科学的新联盟
 
-：自然科学与社会科学的新联盟
-
-Tommaso Venturini,Pablo Jensen,Bruno Latour
+**Tommaso Venturini, Pablo Jensen, Bruno Latour**
 
 1
 

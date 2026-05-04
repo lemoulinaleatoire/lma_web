@@ -1,21 +1,28 @@
 ---
 title: "译文 I 我们（仍然）生活在计算机模拟中吗？阿尔都塞与图灵（下）"
 date: 2025-01-01
+lastmod: 2025-01-01
 type: "translation"
-author: "随机轮编辑部"
+author: "Jason Barker"
 tags: ["阿尔都塞", "斯宾诺莎", "相遇唯物主义", "意识形态理论", "认识论", "资本主义批判"]
 cover: "/img/covers/译文-i-我们-仍然-生活在计算机模拟中吗-阿尔都塞与图灵-下.jpg"
 wordcount: 46005
+license: "CC BY-NC 4.0"
 ---
 
-原标题：
-Are We Still Living in a Computer Simulation?: Althusser and Turing
+## 译者按
+> Translator Notes
 
-出处：
+**翻译&文案**：随机轮编辑部
+**出处**：Jason Barker, "Are We Still Living in a Computer Simulation?: Althusser and Turing", *Diacritics*, Vol. 43, No. 2 (2015), pp. 92-121
 
-Diacritics, 第43卷, 第2期, 2015年, 第92-121页
+---
 
-## >> 判定问题 THE DECISION PROBLEM
+# 我们（仍然）生活在计算机模拟中吗？阿尔都塞与图灵（下）
+
+**Jason Barker**
+
+## 1. 判定问题 THE DECISION PROBLEM
 
 多年来，我们已经习惯了阿尔都塞在哲学中的清算议程。大卫·希尔伯特（David   Hilbert）1900年8月在巴黎国际数学家大会上的讲话或许可以由一种更乌托邦的冲动来解释。正如阿尔都塞六十多年后所做的那样，希尔伯特试图想象一门当时并不存在的新学科的未来——即关于所有数学（数学的对象）的形式公理系统。在希尔伯特的巴黎演讲挑战听众解决的二十三个未解决的数学问题中——“揭开隐藏未来的面纱”[44]——而我们感兴趣的问题是其中的第十个问题，即所谓的判定问题或Entscheidungsproblem，图灵1936年的论文就是对此的回应。希尔伯特将第十个问题描述为“丢番图方程可解性的判定”：
 
@@ -29,7 +36,7 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 “描述”——按现代标准即计算机编程——是一组指令，描述特定机器在进行计算时的行为。由于图灵是数学家，他的目的是表明每台机器都可以由一个被唯一地被一个“描述数”（description   number）所描述。想想今天二进制记数法的广泛应用，以及它如何使我们将几乎任何我们拥有或想象的东西编码为一系列的0和1。这种普遍化的数字描述是图灵解决希尔伯特判定问题方法的一个有用类比。如果可能发明一台机器来执行一种复杂的行为，例如计算任何实数，然后对于每次计算，将机器的行为编码为一个有限的描述数，那么希尔伯特的问题就解决了。然而，与阿尔都塞对“上帝理智”的偏见相反——上帝的理智“运作起来有点像一台计算机”——“拥有上帝无限智慧的哲学家的过分狂妄会理解不仅真实世界，而且这个神圣组合的‘微积分’，以及因此事物的激进起源”（141-42）——图灵的《论可计算数》明确排除了这种神力。判定问题——确定是否存在解决丢番图方程的算法的问题——“无法解决”。[52]在万物的普遍图景中，尽管机器有能力做一些相当了不起的事情，比如计算π。
 
-## >> 作为有限状态机的询唤 INTERPELLATION AS A FINITE STATE MACHINE
+## 2. 作为有限状态机的询唤
 
 对阿尔都塞来说，非决定论是“规则”而非例外：“在‘任何’世界或任何国家中都不存在永恒的‘法则’”。[53]采用图灵的建构主义方法，我们能否通过计算来模拟这种非决定论的、“没有法则”的状态？让我们首先强调的是，图灵认为：“机器”（machine，即在输入上工作的计算设备或装置，不管是人类还是其他）与“状态”（state，即所谓的m-格局，控制机器的转换及其输出）之间存在重要区别。虽然可能存在无限数量的可以计算的机器，但它们的状态总是有限的。作为一种个体转化为特定主体的过程，可以把询唤Interpellation设想为这样的一种机器及与其行为。注意图灵所说的“状态”只是为正在被描述的行为提供了一个离散快照。[54]在政治的话语空间中，不存在比“把个体询唤为主体”保障国家机器的保证更多的来自“唯一的、绝对的、大写的主体，即上帝”的保证能够保证行为。[55]在任意的、给定的情况下，“国家”是一个无状态协议；机器及其行为必须被逐位计算。那些被询唤所代表和再生产的因此是对事物真实状态与运动中的事物的意识形态扭曲。以其认为是主权个体在虚空中开辟道路，不如说，男男女女是处于自由落体中的、缺乏一切可辨识模式的原子（“原子式的个人”）。利维坦不受任何契约约束。[56]因此，科学挑战是正确地以算法描述这种无法无天。
 
@@ -41,19 +48,11 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 但我们还没有完成。图灵解决判定问题的方法在其理论实践上是严谨的。图灵并不只是想知道所有行为都可以被定义并分配一个数字。图灵想知道的是，一旦这些行为被转换为数字，那么在其中：哪些行为是可计算的，即其中哪些实际上可以被模拟。其中一些最终可能无法通过图灵测试。考虑一台输入为“喂，你！”的机器。如果对于任何此类输入，有三种可能的选项会发生什么？机器会如何反应？例如，在接收到二进制输入1时，机器可以保持在“误认”状态；或者，转换到“承认”状态；或者，转换到“过度认同”overidentification状态（见图2）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibenSgjd8ooxlvNMBIMVs3P49281lzf1eiboQzp6H8hhf209ENEpC3aRTztjVJWicxNvleuFxwicbAMBANjiayp3gIg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1
-
-图1
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibenSgjd8ooxlvNMBIMVs3P49281lzf1emHFH55ve2QDEicZq2069YuvWysibeQqJtoGwM9z2iavfqCyUKBLlu5eKg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1imgIndex=1)
-
-图2
-
 我在别处曾提出，确定的否定（determinate   negation）是阿尔都塞政治哲学中限定性概念。[58]这里我们有了它的图灵等价物：非确定性有限状态机。毛泽东1966年“十六条”的第四点提供了这种模糊性和此类询唤的通用例子：“自己教育自己，去识别那些是对的，那些是错的，那些作法是正确的，那些作法是不正确的”。[59]从革命历史的记录中可以引用大量类似灵感的例子。
 
 但是回到我们的例子：面对这种模糊性，FSM会如何反应？撇开每个非确定性FSMNFSM都可以（通过子集构造）转换为确定性FSM这一相当技术性的事实不谈，[60]答案并不十分清楚。面对同一输入有多种路径选择的FSM可能会循环或默认回到其起始状态（或者在TM的情况下，回到磁带的开头）。在极端情况下，它可能会崩溃——就像畅销书作家描述的文革中社会崩溃那样。[61]图灵将他的机器分为令人满意的或“无环”circle-free机器和不令人满意的或“有环”circular机器。“如果一台机器到达一个没有可能移动的格局，它就是有环的”，图灵解释说。[62]因此，有些机器虽然已被描述，但仍然无法计算它们的数字序列。相比之下：“如果一个序列可以由无环机器计算，则称该序列是可计算的。如果一个数字与无环机器计算的数字相差一个整数，则该数字是可计算的”。[63]无环机器完成它们的任务：它们保持运行。有环机器则不然：它们卡住、走错路、停机。毛泽东的“决定”可以说成是对实践的终极考验。由此可见，描述是“创制”Poiesis，对“实践”本身的生产机制；而在第二步的“计算”则是其“实践”Praxis，是坚持到底、完成过程任务所需的自我评估与严明纪律。是否可能构建一台元机器或超机器，能够为每个描述数确定哪些是无环的（因此是可计算的行为），哪些是有环的和不可计算的？
 
-## >> 深思 DEEP THOUGHT
+## 3. 深思
 
 让我们暂停一下。这里提出的主张引来了怀疑。毕竟，“万物皆数”的想法让“对应”这个概念进入一些疑问之中去。当我们声称一种行为可以被某台机器描述，并分配一个描述数时，我们实际上在生产着什么样的形而上学主张呢？是否有一个描述数，一个机器代码，对应于俄国革命的事件序列？巴黎公社？五月风暴？这些序列是“可计算的”吗？这个想法容易招致嘲笑，尽管是以一种递归的喜剧姿态。回想一下《银河系漫游指南》（The Hitchhiker’s Guide to the Galaxy），超级计算机“深思”（Deep   Thought）使用了七千五百万年的时间来计算“生命、宇宙及一切的终极问题”的答案——最终决定答案是“42”。在向两个困惑的泛维度生物（其远祖最初提出了这个问题）解释七百五十万年计算得出的毁灭性结果时，深思解释说答案之所以难以理解，是因为“你从来就没有真正知道问题是什么”。[64]
 
@@ -61,7 +60,7 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 在任何特定情况下，构成意识形态基础的不是“上帝、责任、正义”[66]——甚至不是国家——而只是其自身再生产的理由——算法。但这种递归是可计算的吗？德克斯特·C·柯岑（Dexter  C. Kozen）将“递归”定义为那些存在全函数或其输入可以被“全图灵机”（total Turing  machine）接受的集合。然而，对于每一个这样的输入，全图灵机被保证会停机，而不是进行无限计算。[67]当然，在计算机科学中，就像在意识形态中一样，困难在于准确预测何时。
 
-## >>询唤：德勒克吕兹 (INTERPELLATION: DELESCLUZE)
+## 4. 询唤：德勒克吕兹
 
 以完美的精确度决定各种任意行为的满意度是最稳健的革命“传统”的特征。革命通常被理解为偶然性问题，即超越客观知识和主观预期。让我们回到作为一种“革命”而非平庸行为的询唤，探索其描述的界限。不熟悉以下历史例子的读者请参考我的参考文献。
 
@@ -73,11 +72,11 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 这在公社最后插曲中最具争议性的事件中占据了重要的位置，在这些插曲中，德勒克吕兹被指控在恐慌和绝望的意外时刻牺牲了军事纪律。[69]然而，撇开历史争议不谈，正如我们之前的例子一样，我们能否想出一个算法来模拟这种询唤？此外，一旦设计并转换为描述数，它是否代表了一种令人满意的行为？换句话说，在计算方面，这种行为是无环的吗？回想一下，无环机器是其任务（或程序）可计算的机器，因此以完美的精确度执行。换句话说，可以生成无限小数扩展的程序。这在简化形式上就是判定问题：程序能否在不停机的情况下顺利解决给定输入的每一个难题——每一个是/否转换？请注意，关于某种行为是否无环的决定决不取决于某些外部、独立或本质主义的标准，例如该行为是否真的“是”它所声称的那样（“雅各宾式的”或“革命的”），因为这种行为从来不是直觉问题。问题不在于实践判断，而是在于话语的可理解性，也就是该行为的描述是否使得计算成为可能？
 
-对于德勒克吕兹的询唤，让我们试着设想一台具有有限状态集Q；输入字母表Σ；转换函数δ；接受状态 t；和拒绝状态r的图灵机，对于所有输入：![](https://mmbiz.qpic.cn/sz_mmbiz_png/ibenSgjd8ooxlvNMBIMVs3P49281lzf1ebDp6lR4Osg6UnOO4l7vfTsBbqYxa4CbuHymeJ1SE3gD14P4QKKyChA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1
+对于德勒克吕兹的询唤，让我们试着设想一台具有有限状态集Q；输入字母表Σ；转换函数δ；接受状态 t；和拒绝状态r的图灵机，对于所有输入：
 
 并且：t ∈ Q且 r ∈ Q
 
-请注意，这个初步草图远非图灵机的正式定义，图灵机也可以采取多种形式，包括4元组、5元组（如上）、7元组和9元组。“元组”是指构成机器组件的有限集合列表。在我们的例子中，机器有五元组，(Q,Σ,r,q,δ)，尽管在这种情况下，我省略了用于在纸带上书写符号的集合（严格来说这使它成为FSM而不是TM）。转换函数39;宋体&39;; mso-bidi-font-family: 宋体; color: windowtext; font-weight: normal; mso-bidi-font-weight: normal;"},"namespaceURI":"http://www.w3.org/1999/xhtml"},"node",{"tagName":"span","attributes":{"style":"mso-bookmark:u64e566a0"},"namespaceURI":"http://www.w3.org/1999/xhtml"},"node",{"tagName":"span","attributes":{"style":"font-family:Noto Serif SC;\nmso-ascii-font-family:Noto Serif SC;\nfont-variant:normal;\ntext-transform:none"},"namespaceURI":"http://www.w3.org/1999/xhtml"}]">δ通常由状态表（此处未显示）指定，这是描述机器行为的程序。让我们开始勾勒这个程序。例如，在起始状态q0，让机器接受包含符号a, b或c的任何输入或数据串并转换到状态 。这意味着对于字符串 a, abb, abccca 或 cc，机器正在转换到q1。而对于任何包含符号 d 的字符串，机器拒绝它并停留在q1这意味着对于字符串 d, bdbdd, cda 或 ccccd，机器停留在q0。以此类推，对于任何包含 d 的输入，我们有r ∈ Q → q0，对于所有其他输入，我们有r ∈ Q → q1。对于从q1到q2的转换，可以修改语法，不是完全拒绝 d 输入，而是可以接受以 d 开头的字符串并拒绝以 d 结尾的字符串。
+请注意，这个初步草图远非图灵机的正式定义，图灵机也可以采取多种形式，包括4元组、5元组（如上）、7元组和9元组。“元组”是指构成机器组件的有限集合列表。在我们的例子中，机器有五元组，(Q,Σ,r,q,δ)，尽管在这种情况下，我省略了用于在纸带上书写符号的集合（严格来说这使它成为FSM而不是TM）。转换函数 δ 通常由状态表（此处未显示）指定，这是描述机器行为的程序。让我们开始勾勒这个程序。例如，在起始状态q0，让机器接受包含符号a, b或c的任何输入或数据串并转换到状态 。这意味着对于字符串 a, abb, abccca 或 cc，机器正在转换到q1。而对于任何包含符号 d 的字符串，机器拒绝它并停留在q1这意味着对于字符串 d, bdbdd, cda 或 ccccd，机器停留在q0。以此类推，对于任何包含 d 的输入，我们有r ∈ Q → q0，对于所有其他输入，我们有r ∈ Q → q1。对于从q1到q2的转换，可以修改语法，不是完全拒绝 d 输入，而是可以接受以 d 开头的字符串并拒绝以 d 结尾的字符串。
 
 这是一个故意过度简化的机器计划，需要增强；至少如果我们要以完美的精确度描述它的行为。德勒克吕兹机器暗示了一种丰富表达的行为库，却仅包含a,b,c和d四个符号的字母表。我们可以想象稍微扩展它一下。此外，关键的是，我们需要添加一组（公理）管理读/写指令，用于在半无限纸带上打印机器的输出（没有这个，它的计算将保持抽象而不是具体知识，即不会记录在数字或字母符号中）。[70]除了我们已有的三个状态外，我们还可以添加一些补充转换状态，同时确保尽量减少冗余状态。[71]香农（C.  E.  Shannon）著名的“信息冗余”，[72]计算理论旨在通过数据压缩来消除。根据蔡廷Chaitin的说法，压缩是在形式公理系统中理解的代价，其中定理的数量大大超过公理。[73]这样的系统提供了在不丢失信息的情况下进行表示的最小句法框架。在我们的例子中，让我们推测压缩程度（即在不丢失信息的情况下可能丢失的数据量），可能大致相当于以下两者之间的质性的或经验的差异：作为公社模拟器的1980年代街机游戏或在城市尺度上的对其历史形势的模拟。尽管马克思在《雾月十八日》中的评论具有历史特殊性，既哀叹又讽刺革命倾向于作为古装剧上演，正如1848年至1851年间在法国发生的那样——当时“只有旧革命的幽灵在游荡”[74]——并且假设他对公社的赞赏已被阅读，我认为计算机模拟在精确计算一种行为的意义上，潜在地是“革命性的”。我不久将回到这一点。
 
@@ -87,11 +86,11 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 这触及了判定问题的核心。随机性是无法从中预测任何移动的“无规则”状态。在直觉上，可以说德勒克吕兹对法国公民的询唤属于这一类问题，虽然在当时这是一场政治上的组织灾难。而在此要注意是，不能被其表面上的模糊性所迷惑。   [78]模糊性不并是随机性。那些被算作模糊性的东西，可能仅仅只是一种表面性的感知的后果，我们可能会解决它或使其确定化、收编它，或将其从非确定性FSM转换为确定性FSM。相反，我的目标是将这种超出所有知识和预测能力的完美的计算精确度描述为随机的，并因此在某种意义上是“革命性的”。让我们假设任何适合这种计算的随机行为都可以生成一个超越数（transcendental  number）。[79]  尽管大多数实数都是超越数，只有包括π、欧拉数e和蔡廷常数Ω在内的十几个超越数被严格证明过其超越性。这难道不是德勒克吕兹的“询唤”可能将我们带去的方向吗？一段处于未知和不可知领域的历史。一段可能不会发生的历史、或者实际上是一段从未发生过的历史。
 
-## >> 随机性，不可压缩性：蔡廷 (RANDOMNESS, INCOMPRESSIBILITY: CHAITIN)
+## 5. 随机性，不可压缩性：蔡廷
 
 我们的消费生活方式需要计算机程序来模拟诸如洗碗、录制电视节目、完成纳税申报单和喂猫等世俗行为——更不用说那些全天候用“电子”信息询唤我们的程序了。这些行为是可编程的，或可计算的，因为他们是依赖于机器行为规范运作的。但是撇开世俗和意识形态不谈，一种革命行为呢，一种在我们的德勒克吕兹机器规模上独特的，并且假设可以像超越数那样精确确定的行为呢？可以构建这种前所未有且不可预测的机器吗？我们能预测不可预测的事物吗？
 
-回想一下，希尔伯特的判定问题涉及决定对于任何给定的数字，它是否是丢番图方程的解。让我们想象一台丢番图方程计算机——一种“深思”——遵循公式：![](https://mmbiz.qpic.cn/sz_mmbiz_png/ibenSgjd8ooxlvNMBIMVs3P49281lzf1e7ak8cM8WibtGppytTo4HNxoYB6ThibO9zC56icicmviahVFn0ItzBkgibS7A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1imgIndex=3)
+回想一下，希尔伯特的判定问题涉及决定对于任何给定的数字，它是否是丢番图方程的解。让我们想象一台丢番图方程计算机——一种“深思”——遵循公式：
 
 其中 k 是计算机程序，n 是未知输出。对于 k，输入一个程序——例如，一个生成形式语言所有定理的算法——其中 x, y, z, …是输出n的时间变量。现在，如果计算机能够为任何输入生成解，蔡廷解释说，那么我们面前将有一台机器，它不仅能够决定我们输入的程序是否提供了丢番图方程的解。我们还将拥有一台能够“决定”它（机器）在进行计算过程中是否会停机的机器。[80]多少有些直观的是，撇开所谓的图灵停机问题（halting   problem）的形式证明不谈，[81]能够为任何输入生成是/否答案的机器是一台其“智力”无法被决定的机器，或者正如蔡廷的工作所表明的，是一台随机智力的机器。[82]
 
@@ -105,7 +104,7 @@ Diacritics, 第43卷, 第2期, 2015年, 第92-121页
 
 像巴迪欧一样，蔡廷肯定会承认将主体构想为数字序列的缝合或“缝合线”suture是愚蠢的。在蔡廷看来，存在一台主体生成机器的前景似乎是不可能的，因为任何有限集（随机）实数的比特数“不能被压缩到一个比特数相比其更小的FAS   [形式公理系统]中。”[90]事实上，蔡廷的数学事业中起作用的是被他称之为“不可压缩性”incompressibility极端的去缝合de-suturing。[91]压缩是一种努力导向形式语言中的“优雅”表述的努力。证明因其简洁而优雅。压缩使理解成为可能。但压缩也规定形式语言或公理系统FAS最终将是不完备的。换句话说，正如图灵机一样，FAS总是受限于其自身的公理。这符合一般的可计算性或数据处理原则，即无论大小如何，计算机都是一个封闭系统，并且在“外部”总是有比任何计算机在有限时间内实际能够处理的更多的数据。
 
-## >> 其他宇宙 OTHER UNIVERSES
+## 6. 其他宇宙
 
 FAS数据压缩的概念大致与爱德华·弗雷德金（Edward  Fredkin）、赛斯·劳埃德Seth Lloyd、史蒂芬·沃尔夫勒姆（Stephen  Wolfram）等人的所谓数字哲学和数字物理学有着共同的假设，其中宇宙的“封闭系统”被假定为“任何计算机”、二进制数据与可被计算的物理过程。[92]看来莱布尼茨的一元论形而上学不会消失。声称数字哲学是一场统一的智力运动（相对于科学哲学中的一般取向）有些夸张。然而，必须谨慎看待这种假设。图灵从未肯定过这种字面意义上的对通用计算机的通用性的理解。另一方面，这里“字面上”是什么意思？我们是说图灵的思想实验必须按他预期的方式“抽象”地阅读吗？康托尔革命深刻破坏的当然是这样一种观念，即“抽象与具体对立，就像被分离的部分与整体 [tout]对立一样”。阿尔都塞同意：
 
@@ -119,114 +118,114 @@ FAS数据压缩的概念大致与爱德华·弗雷德金（Edward  Fredkin）、
 
 用阿尔都塞的话来说，“极其特殊的情况”（斯宾诺莎的第三种知识）带来了一个从意识形态中革命性的出口。但是用蔡廷的话来说，这种知识的仅仅直觉维度将被彻底超越，而重要的是，随机性本身——“除了外部什么都不是”——是可以被定义的。[95]蔡廷对随机性（作为不可计算性）的形式化使得阿尔都塞对莱布尼茨上帝的充足理由律的解释——一种旨在将确定性与他自己对偶然性的偏好进行对比的解释——变得完全多余。
 
-## >> 结论 CONCLUSION
+## 7. 结论
 
 在政治上，偶然性让人想起周恩来在被问及对法国大革命的看法时那句神秘的回答：“现在下结论为时过早”。[96]这种保守主义似乎是阿尔都塞政治的合适墓志铭。话又说回来，这种政治“保守主义”绝不能被轻易打发。因为基于设计物理现实的数字模型，计算理论邀请我们得出与新自由主义体系所谓的不可动摇性恰恰相反的结论。换句话说，“该体系”远非不可动摇，而是必须在每一刻和通过每一个状态被再生产，尽管事实上在每一刻和通过每一个状态，整个大厦——计算——都可能崩溃、循环、完全停机。这个假设，尽管看起来很有说服力，实际上并非如此。这触及了蔡廷关于不可压缩性和随机性工作的核心。其在思考真实政治插曲中的可能应用将需要进一步和更彻底的调查。
 
 虽然我们可以有把握地假设阿尔都塞对图灵的工作没有兴趣，但对于阿尔都塞关于偶然相遇唯物主义和原子论的遗作而言，后者的意义是无可争辩的。换句话说，在此条件上，我们可以将阿尔都塞在《入门》中讨论了三章的“抽象”问题，视为模拟问题。“上帝的理智，运作起来有点像计算机”的无限力量是阿尔都塞哲学想象的虚构：一部配得上伏尔泰本人的讽刺作品。与其完全相反，被阿尔都塞误认为是神圣理智的抽象延伸的计算机是一台基于实践的、概念上富有创造性的、但最终易错的机器：上帝不是以理想计算机的完美来运作，而是以蔡廷的Ω常数的无模式结构和逻辑不可约性来运作。[97]这就是图灵计算理论帮助引入的认识论断裂和思维革命。
 
-## 引用和注释
+## 注释
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">44.Hilbert, “Mathematical Problems,” 437.
+[^44]: Hilbert, “Mathematical Problems,” 437.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">45.Ibid., 458.
+[^45]: Ibid., 458.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">46.Althusser, For Marx, 102.
+[^46.Althusser, For Marx, 102.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">47.Ibid., 113.
+[^47.Ibid., 113.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">48.See Macherey, Hegel or Spinoza?
+[^48.See Macherey, Hegel or Spinoza?
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">49.Ibid., 152.
+[^49.Ibid., 152.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">50.Several  non-specialist titles dealing with Georg Cantor and the history of set  theory have emerged over the last ten years. See e.g., David Foster  Wallace’s Everything and More.
+[^50.Several  non-specialist titles dealing with Georg Cantor and the history of set  theory have emerged over the last ten years. See e.g., David Foster  Wallace’s Everything and More.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">51.Hodges, Turing, 26.
+[^51.Hodges, Turing, 26.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">52.Turing, “On Computable Numbers,” 148.
+[^52.Turing, “On Computable Numbers,” 148.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">53.Althusser, Philosophy of the Encounter, 174.
+[^53.Althusser, Philosophy of the Encounter, 174.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">54.Turing, “On Computable Numbers,” 139–40.
+[^54.Turing, “On Computable Numbers,” 139–40.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">55.Althusser, “Ideology and Ideological State Apparatuses,” 52.
+[^55.Althusser, “Ideology and Ideological State Apparatuses,” 52.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">56.Althusser, Philosophy of the Encounter, 181–82.
+[^56.Althusser, Philosophy of the Encounter, 181–82.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">57.“To  each computable sequence there corresponds at least one description  number, while to no description number does there correspond more than  one computable sequence. The computable sequences and numbers are  therefore enumerable” (Turing, “On Computable Numbers,” 127).
+[^57.“To  each computable sequence there corresponds at least one description  number, while to no description number does there correspond more than  one computable sequence. The computable sequences and numbers are  therefore enumerable” (Turing, “On Computable Numbers,” 127).
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">58.See Barker, “Missed Encounter: AlthusserMao—Spinoza.”
+[^58.See Barker, “Missed Encounter: AlthusserMao—Spinoza.”
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">59.Central  Committee of the Chinese Communist Party, “Decision of the Central  Committee of the Chinese Communist Party Concerning the Great  Proletarian Cultural Revolution,” 8; translation modified.
+[^59.Central  Committee of the Chinese Communist Party, “Decision of the Central  Committee of the Chinese Communist Party Concerning the Great  Proletarian Cultural Revolution,” 8; translation modified.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">60.Kozen, Automata and Computability, 35.
+[^60.Kozen, Automata and Computability, 35.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">61.See Chang and Halliday, Mao: The Unknown Story.
+[^61.See Chang and Halliday, Mao: The Unknown Story.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">62.Turing, “On Computable Numbers,” 119.
+[^62.Turing, “On Computable Numbers,” 119.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">63.Ibid.
+[^63.Ibid.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">64.Adams, The Hitchhiker’s Guide to the Galaxy, 152.
+[^64.Adams, The Hitchhiker’s Guide to the Galaxy, 152.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">65.Althusser, “Ideology and Ideological State Apparatuses,” 38.
+[^65.Althusser, “Ideology and Ideological State Apparatuses,” 38.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">66.Ibid., 36.
+[^66.Ibid., 36.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">67.Kozen, Automata and Computability, 216–19.
+[^67.Kozen, Automata and Computability, 216–19.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">68.Livet, Le journal officiel de Paris pendant la Commune, 283–84; my translation.
+[^68.Livet, Le journal officiel de Paris pendant la Commune, 283–84; my translation.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">69.See e.g., Dominique, La commune de Paris; Talès, La commune de 1871.
+[^69.See e.g., Dominique, La commune de Paris; Talès, La commune de 1871.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">70.In other words a tape with a beginning but no end, where a machine could read input and continue printing output forever.
+[^70.In other words a tape with a beginning but no end, where a machine could read input and continue printing output forever.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">71.Admittedly there are a great many Tayloristic applications that Turing never anticipated for his machine.
+[^71.Admittedly there are a great many Tayloristic applications that Turing never anticipated for his machine.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">72.Shannon, “A Mathematical Theory of Communication,” 24.
+[^72.Shannon, “A Mathematical Theory of Communication,” 24.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">73.Chaitin, Meta Math!, 102.
+[^73.Chaitin, Meta Math!, 102.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">74.Marx, The Eighteenth Brumaire of Louis Bonaparte, 17; translation modified.
+[^74.Marx, The Eighteenth Brumaire of Louis Bonaparte, 17; translation modified.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">75.Badiou, Being and Event, 38–48.
+[^75.Badiou, Being and Event, 38–48.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">76.Turing, “On Computable Numbers,” 118.
+[^76.Turing, “On Computable Numbers,” 118.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">77.Ibid. 127: “It is possible to invent a single machine which can be used to compute any computable sequence.”
+[^77.Ibid. 127: “It is possible to invent a single machine which can be used to compute any computable sequence.”
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">78.Doubly  beware: we are very far from having formalized Delescluze’s  interpellation as “random.” These are extremely impressionistic  speculations at best.
+[^78.Doubly  beware: we are very far from having formalized Delescluze’s  interpellation as “random.” These are extremely impressionistic  speculations at best.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">79.Real  numbers comprise algebraic and transcendental numbers. In the first  case, whereas algebraic numbers are all roots of a non-zero polynomial  with integer coefficients (such as sqare root of 8 being the root of 39;mord&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">x239;mbin&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">−39;mord&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">839;mrel&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">=39;mord&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">0), in the second, transcendental numbers (such as 39;mord&39;;font-family: Noto Sans SC;mso-ascii-font-family: Noto Sans SC;mso-fareast-font-family: Noto Sans SC;font-variant: normal;text-transform: none;">π) resist such expression. See Wallace, Everything and More, 103n. Chaitin, Meta Math!, 33–34.
+[^79.Real  numbers comprise algebraic and transcendental numbers. In the first  case, whereas algebraic numbers are all roots of a non-zero polynomial  with integer coefficients (such as sqare root of 8 being the root of 39;mord&39;;text-transform: none;">x239;mbin&39;;text-transform: none;">−39;mord&39;;text-transform: none;">839;mrel&39;;text-transform: none;">=39;mord&39;;text-transform: none;">0), in the second, transcendental numbers (such as 39;mord&39;;text-transform: none;">π) resist such expression. See Wallace, Everything and More, 103n. Chaitin, Meta Math!, 33–34.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">80.The  halting problem is summarized as follows. Let U be a machine that can  simulate any TM Turing Machine behavior on a string of data so that U  halts and accepts x if the TM does; halts and rejects x if the TM does;  or, loops on x if the TM does. Is there a way for U to decide in  advance, or in other words without running what is essentially a  simulation, whether and how the TM will halt for data x? No, not without  actually running the simulation. Although, “there are certainly  machines for which it is possible to determine halting by some heuristic  or other: machines for which the start state is the accept state, for  example” (Kozen, Automata and Computability, 232; see also 231–34).
+[^80.The  halting problem is summarized as follows. Let U be a machine that can  simulate any TM Turing Machine behavior on a string of data so that U  halts and accepts x if the TM does; halts and rejects x if the TM does;  or, loops on x if the TM does. Is there a way for U to decide in  advance, or in other words without running what is essentially a  simulation, whether and how the TM will halt for data x? No, not without  actually running the simulation. Although, “there are certainly  machines for which it is possible to determine halting by some heuristic  or other: machines for which the start state is the accept state, for  example” (Kozen, Automata and Computability, 232; see also 231–34).
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">81.“This  proves that uncomputability and incompleteness [and “randomness” for  Chaitin—J. B.]are lurking right at the core, in two thousand-year old  Diophantine problems!” (Chaitin, Meta Math!, 34).
+[^81.“This  proves that uncomputability and incompleteness [and “randomness” for  Chaitin—J. B.]are lurking right at the core, in two thousand-year old  Diophantine problems!” (Chaitin, Meta Math!, 34).
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">82.Turing, “On Computable Numbers, 132–34.
+[^82.Turing, “On Computable Numbers, 132–34.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">83.Badiou, Number and Numbers, 176–77.
+[^83.Badiou, Number and Numbers, 176–77.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">84.Chaitin, Meta Math!, 99–100.
+[^84.Chaitin, Meta Math!, 99–100.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">85.See Chaitin, “How Real Are Real Numbers?”
+[^85.See Chaitin, “How Real Are Real Numbers?”
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">86.Bruno Bosteels discusses Žižek’s  psychoanalytic obsession with symbolic order as well as his more recent  attempts to think “order out of disorder,” in The Actuality of  Communism, 170–224.
+[^86.Bruno Bosteels discusses Žižek’s  psychoanalytic obsession with symbolic order as well as his more recent  attempts to think “order out of disorder,” in The Actuality of  Communism, 170–224.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">87.Jacques-Alain  Miller’s celebrated paper from Cahiers pour l’Analyse would make such  an analogy by arguing that “the function of the subject, misrecognized”  is “operative” in this progression (Miller, “Suture,” 94).
+[^87.Jacques-Alain  Miller’s celebrated paper from Cahiers pour l’Analyse would make such  an analogy by arguing that “the function of the subject, misrecognized”  is “operative” in this progression (Miller, “Suture,” 94).
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">88.Badiou, “Mark and Lack,” 172.
+[^88.Badiou, “Mark and Lack,” 172.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">89.Chaitin, Meta Math!, 97.
+[^89.Chaitin, Meta Math!, 97.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">90.Ibid., 115.
+[^90.Ibid., 115.
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">91.See Fredkin, “Finite Nature”; Wolfram, A New Kind of Science; Lloyd, Programming the Universe.
+[^91.See Fredkin, “Finite Nature”; Wolfram, A New Kind of Science; Lloyd, Programming the Universe.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">92.See Bostrom, “Are We Living in a Computer Simulation?”
+[^92.See Bostrom, “Are We Living in a Computer Simulation?”
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">93.Althusser, “Ideology and Ideological State Apparatuses,” 49.
+[^93.Althusser, “Ideology and Ideological State Apparatuses,” 49.
 
-39;引用和注释&39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">94.According to Chaitin, “reals are transcendental/ uncomputable/random with probability one” (Chaitin, Meta Math!, 83).
+[^94.According to Chaitin, “reals are transcendental/ uncomputable/random with probability one” (Chaitin, Meta Math!, 83).
 
-39;;mso-style-parent: &39;列出段落&39;;mso-list: l0 level1 lfo1;margin-top: 6.0pt;margin-bottom: 6.0pt;text-align: justify;text-justify: inter-ideograph;margin-left: 18.0pt;text-indent: 0.0pt;mso-char-indent-count: 0;mso-char-indent-size: 0pt;line-height: normal;mso-pagination: widow-orphan;font-size: 9.0pt;mso-bidi-font-size: 11.0pt;font-family: Noto Sans SC;mso-fareast-font-family: &39;Noto Sans SC&39;;mso-bidi-font-family: Noto Sans SC;color: 000000;font-weight: normal;mso-bidi-font-weight: normal;">95.Zhou  was in fact reportedly offering his opinion on May ’68 to Henry  Kissinger or Richard Nixon during one of their visits to China in the  early 1970s. See McGregor, “Zhou’s Cryptic Caution Lost in Translation.”
+[^95.Zhou  was in fact reportedly offering his opinion on May ’68 to Henry  Kissinger or Richard Nixon during one of their visits to China in the  early 1970s. See McGregor, “Zhou’s Cryptic Caution Lost in Translation.”

@@ -1,18 +1,28 @@
 ---
 title: "译文 I 拆解利维坦：行动者如何构建宏观现实及社会学家的助力（卡隆&amp;拉图尔）"
 date: 2025-01-01
+lastmod: 2025-01-01
 type: "translation"
-author: "随机轮编辑部"
+author: "Michel Callon & Bruno Latour"
 tags: ["拉图尔", "布尔迪厄", "德勒兹", "卡隆", "ANT", "STS", "意识形态理论", "翻译研究"]
 cover: "/img/covers/译文-i-拆解利维坦-行动者如何构建宏观现实及社会学家的助力-卡隆-amp-拉图尔.jpg"
 wordcount: 25682
+license: "CC BY-NC 4.0"
 ---
 
-原标题：Unscrewing the Big Leviathan: how actors macro-structure reality and how sociologists help them to do so
+## 译者按
+> Translator Notes
 
-译者按：这篇论文选自文集0F4761;letter-spacing:0.25pt;font-weight:bold;mso-bidi-font-weight:bold;font-style:italic;mso-bidi-font-style:italic;">Advances in social theory and methodology，为原书第10篇，是两位著名社会学家、STS/ANT（当然此时ANT一词尚未发明，所以严谨的说法应该是“转译社会学”）代表人物Michel Callon 和 Bruno Latour 于1981年发表的经典论文。作者从自身的理论立场和核心观念出发，对 “社会秩序何以可能” 这一经典问题以及霍布斯 “自然状态” “利维坦” 概念作出了（至少在那时）颇有新意的解读、重构与回应，并解释了ANT中的一些著名概念（需要注意，此时拉图尔等人的思想还没成熟，所以在部分概念应用上与我们现今熟悉的ANT体系有所不同，恳请读者加以甄别）和核心思想。同时在文中，两位社会学大家对社会学的方法与目的提出了自己的洞见，值得四十余年后的人文社科学子再次停留、思考。故而译介此文，以飨读者。
+这篇论文选自文集Advances in social theory and methodology，为原书第10篇，是两位著名社会学家、STS/ANT（当然此时ANT一词尚未发明，所以严谨的说法应该是”转译社会学”）代表人物Michel Callon 和 Bruno Latour 于1981年发表的经典论文。作者从自身的理论立场和核心观念出发，对 “社会秩序何以可能” 这一经典问题以及霍布斯 “自然状态” “利维坦” 概念作出了（至少在那时）颇有新意的解读、重构与回应，并解释了ANT中的一些著名概念（需要注意，此时拉图尔等人的思想还没成熟，所以在部分概念应用上与我们现今熟悉的ANT体系有所不同，恳请读者加以甄别）和核心思想。同时在文中，两位社会学大家对社会学的方法与目的提出了自己的洞见，值得四十余年后的人文社科学子再次停留、思考。故而译介此文，以飨读者。
 
-拆解宏大利维坦：行动者如何构建宏观现实及社会学家的助力
+**翻译&文案**：随机轮编辑部
+**出处**：Michel Callon & Bruno Latour, “Unscrewing the Big Leviathan: how actors macro-structure reality and how sociologists help them to do so”, in *Advances in Social Theory and Methodology* (1981)
+
+---
+
+# 拆解宏大利维坦：行动者如何构建宏观现实及社会学家的助力
+
+**Michel Callon & Bruno Latour**
 
 【以下是文集编者的话】
 

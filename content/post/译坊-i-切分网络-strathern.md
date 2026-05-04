@@ -1,28 +1,30 @@
 ---
 title: "译坊 I 切分网络（Strathern）"
 date: 2026-03-05
+lastmod: 2026-03-05
 type: "translation"
-author: "随机轮编辑部"
+author: "Marilyn Strathern"
 tags: ["拉图尔", "后结构主义", "女性主义"]
 cover: "/img/covers/译坊-i-切分网络-strathern.jpg"
 wordcount: 30431
+license: "CC BY-NC 4.0"
 ---
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/FEPSzicRGl002AkX9GYhVoJictWJC1hfwVjV9jbbYK0F1xx1MPghuNxvZgmoT5eOx9zxOUiayiajdSS8ry40aljLOwBTagZMqlj7KPX3eYuppI0/640?wx_fmt=png&from=appmsg)
+## 译者按
 
-**译者按**
-
-Translator Notes
+> Translator Notes
 
 作为后结构主义人类学的代表人物之一，Marilyn Strathern在本文中讨论了“网络”这一重要的社会人类学概念，并且讨论了拉图尔在《我们从未现代过》中提出的“杂合体”hybrids问题——Marilyn Strathern顺着拉图尔的论点，在分析了被纯化、被建构的人类/非人类或文化/自然的二分之后，又分析这些建构是如何在切分cut网络中产生的。这篇文章是对称性人类学的重要作品，也是对《我们从未现代过》的思想的分析与延伸。故译介此文，以飨读者。
 
-**翻译&文案：随机轮编辑部**
+**翻译&文案**：随机轮编辑部
 
-***出处：***The Journal of the Royal Anthropological Institute, Vol. 2, No. 3 (Sep., 1996), pp. 517-535
+**出处**：The Journal of the Royal Anthropological Institute, Vol. 2, No. 3 (Sep., 1996), pp. 517-535
 
-切分网络
+---
 
-Marilyn Strathern
+# 切分网络
+
+**Marilyn Strathern**
 
 摘要：新技术的涌现激发了人们对社会生活描述中何为新、何为旧这一古老论辩的重新审视。这篇文章讨论了目前对“杂合体”（hybrid，又称混合体，混杂物）和“网络”network这两个概念的使用。这可以被视为对拉图尔倡导的“对称性人类学”symmetrical anthropology的回应，这种人类学汇聚了现代的和非现代的知识形式。在这一进程中，这篇文章反思了分析性叙事的无限延伸性，并且财产权在这一看似无限延伸的世界中，占据了一个有趣的位置。
 

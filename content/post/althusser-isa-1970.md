@@ -14,15 +14,22 @@ bibtex: "althusser1970.bib"
 pdf: "/pdf/althusser-isa-1970.pdf"
 ---
 
-## 译按
+## 译者按
+
+> Translator Notes
 
 路易·阿尔都塞（Louis Althusser）的《意识形态与意识形态国家机器》是当代意识形态理论的核心文本之一。本文最初发表于 1970 年《思想》（*La Pensée*）杂志，后收录于文集 *Positions*（1976）。以下译出的是该文关键节段——关于意识形态国家机器（appareils idéologiques d'État / ISA）与镇压性国家机器（appareil répressif d'État）的区分，以及意识形态"质询"（interpellation）机制的经典论述。
 
 译文按法语原文译出，参考了 Ben Brewster 英译。关键术语首次出现时附法文原词。
 
+**翻译&文案**：随机轮编辑部
+**出处**：Louis Althusser, "Idéologie et appareils idéologiques d'État" (1970)
+
 ---
 
-## 正文
+# 意识形态与意识形态国家机器（节选）
+
+**Louis Althusser**
 
 让我进入下一个论题：劳动力资格的再生产，其本质是在意识形态臣服的诸形式之中、且通过这些形式来确保的。但这要求我们承认一种新的现实——意识形态——的实际在场。
 
@@ -49,6 +56,8 @@ pdf: "/pdf/althusser-isa-1970.pdf"
 Althusser, Louis. "Idéologie et appareils idéologiques d'État (Notes pour une recherche)." *La Pensée*, no. 151, 1970, pp. 3–38. 后收入 *Positions (1964–1975)*, Éditions Sociales, 1976, pp. 67–125.
 
 ---
+
+## 注释
 
 [^1]: 在 1976 年意大利版的后记中，阿尔都塞强调这一概念受葛兰西（Antonio Gramsci）霸权理论的启发，但将其从市民社会（società civile）的模糊地带搬运到了国家理论的具体地形中。
 [^2]: 原文为 "la reproduction de la soumission"，Brewster 译为 "the reproduction of submission to the ruling ideology"。此处直译为"臣服于统治意识形态的再生产"，以保留 submission 与 assujettissement 的法语词根联系。

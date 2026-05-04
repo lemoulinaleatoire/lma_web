@@ -1,28 +1,29 @@
 ---
 title: "译坊 I 幽灵写作（佳亚特里·斯皮瓦克）"
 date: 2026-02-19
+lastmod: 2026-02-19
 type: "translation"
-author: "随机轮编辑部"
+author: "Gayatri C. Spivak"
 tags: ["阿尔都塞", "斯皮瓦克", "意识形态理论", "后结构主义", "现象学", "资本主义批判", "帝国主义与殖民", "女性主义"]
 cover: "/img/covers/译坊-i-幽灵写作-佳亚特里-斯皮瓦克.jpg"
 wordcount: 33373
+license: "CC BY-NC 4.0"
 ---
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/FEPSzicRGl008smFfkvsic5SgePyZqfmJa3CLB6Cu9PibsO4HibCibAaiaeUWAk50I0TCH5PCfzysb8xYicHjXibzNrYcAdDp092fia1aZfRDJMImHiaw/640?wx_fmt=png)
-
-译者按
-
-Translator Notes
+## 译者按
+> Translator Notes
 
 这是斯皮瓦克在Diacritics杂志上面发表的一篇文章，此文主要讨论了德里达的《马克思的幽灵》，并结合德里达，对《资本论》中“幽灵般的对象性”和《德意志意识形态》中的“幽灵”进行解读，从而分析了德里达的幽灵学，另外将其应用在女性文本分析中，讨论了有关女性研究和庶民研究的“女性的幽灵”。此文对了解德里达和斯皮瓦克的思想具有重要作用，故编辑部译介此文，以飨读者。
 
-**翻译&文案：随机轮编辑部**
+**翻译&文案**：随机轮编辑部
 
-***出处：Diacritics, Summer, 1995, Vol. 25, No. 2 (Summer, 1995), pp. 64-84***
+**出处**：Diacritics, Summer, 1995, Vol. 25, No. 2 (Summer, 1995), pp. 64-84
 
-**Ghostwriting**
+---
 
-Gayatri C. Spivak
+# Ghostwriting
+
+**Gayatri C. Spivak**
 
 ভিনদেশী এক পাগল মরে না ম’লে（一个异乡的狂人，即使死了也不会消逝)
 
