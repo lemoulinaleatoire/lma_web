@@ -9,7 +9,7 @@
 | 后端 | Node.js + Express | REST API，Markdown 文件解析，内存缓存 |
 | 前端 | Angular 18（standalone） | 懒加载路由，响应式布局，纯 CSS 无框架 |
 | 内容 | Markdown（YAML front matter） | 文件即数据库，gray-matter + marked 渲染 |
-| 构建 | Angular CLI + concurrently | 生产构建 ~92KB gzipped（首屏） |
+| 构建 | Angular CLI + concurrently | 生产构建，Angular application builder |
 
 ## 快速启动
 
@@ -53,7 +53,7 @@ npm start          # → http://localhost:3000
               └───────────────┬───────────────┘
                               │
               ┌───────────────┴───────────────┐
-              │   14 个懒加载页面组件            │
+              │   15 个懒加载页面组件            │
               │   RouterLink + innerHTML       │
               └───────────────────────────────┘
 ```
@@ -85,7 +85,8 @@ le-moulin-aleatoire/
 │   │   └── talks.js          # 讲座列表 + 详情
 │   └── utils/
 │       ├── markdown-parser.js # 核心：gray-matter + marked 解析、短代码处理、缓存层
-│       └── wechat-importer.js # 微信公众号文章批量导入工具（两阶段）
+│       ├── wechat-importer.js # 微信公众号文章批量导入工具（两阶段）
+│       └── generate-feed.js   # Atom Feed 生成器（手动运行，输出到 public/index.xml）
 │
 ├── content/                  # ═══ 内容（Markdown 文件数据库）═══
 │   ├── post/                 # 47 篇文章 → /post/:slug
@@ -98,13 +99,13 @@ le-moulin-aleatoire/
 │       └── social.json       # 社交媒体链接
 │
 ├── src/                      # ═══ 前端 ═══
-│   ├── index.html            # HTML 入口（lang=zh-CN，无外部字体）
+│   ├── index.html            # HTML 入口（lang=zh-CN，Google Fonts via fonts.loli.net）
 │   ├── main.ts               # Angular 引导
 │   ├── styles.scss           # 全局样式：CSS 变量、排版、6种内容标记系统
 │   └── app/
 │       ├── app.component.ts  # 根组件：Header + RouterOutlet + Footer
 │       ├── app.config.ts     # 应用配置：路由、HttpClient、变更检测
-│       ├── app.routes.ts     # 14 条路由定义（全部懒加载）
+│       ├── app.routes.ts     # 16 条路由定义（全部懒加载）
 │       │
 │       ├── services/
 │       │   └── api.service.ts # API 服务：类型接口、TYPE_NAMES 常量、HTTP 方法
@@ -115,13 +116,14 @@ le-moulin-aleatoire/
 │       │   └── site-footer/  # 底部信息（版权、许可、RSS）
 │       │
 │       └── pages/            # 页面组件（全部 standalone + 懒加载）
-│           ├── home/         # 首页：Hero + 最新6篇文章 + 近期讲座
+│           ├── home/         # 首页：Hero + 最新6篇文章 + 近期讲座（含 Konami Code 彩蛋）
 │           ├── post-list/    # 文章列表：分类标签页 + 标签云 + 分页
 │           ├── post-detail/  # 文章详情：封面、元数据、标签、HTML 内容
 │           ├── search/       # 全站搜索：关键词 → 结果列表
 │           ├── author-detail/# 作者页面：作者名 + 该作者全部文章
 │           ├── about/        # 关于页面（静态内容）
 │           ├── links/        # 友链页面（调用 friends API + 短代码渲染）
+│           ├── personality-test/  # 前沿激进社会思想家人格测试 + 结果页
 │           ├── publication-list/  # 出版列表
 │           ├── publication-detail/# 出版详情
 │           ├── project-list/ # 项目列表
@@ -158,6 +160,8 @@ src/app/app.routes.ts
   ├─ 'search'           → pages/search/search.component.ts
   ├─ 'about'            → pages/about/about.component.ts
   ├─ 'links'            → pages/links/links.component.ts
+  ├─ 'test'             → pages/personality-test/personality-test.component.ts
+  ├─ 'test/result'      → pages/personality-test/test-result.component.ts
   ├─ 'publication'      → pages/publication-list/...
   ├─ 'publication/:slug'→ pages/publication-detail/...
   ├─ 'project'          → pages/project-list/...
@@ -225,7 +229,7 @@ Markdown 渲染后通过 CSS 实现视觉区分：
 | 参考文献 | `<div class="references">` | `.references` | 分隔区域 + "参考文献" 标题 |
 | 尾注 | `<div class="endnotes">` | `.endnotes` | 自动编号 + "注释" 标题 |
 
-定义位置：`src/styles.scss:62-113`。
+定义位置：`src/styles.scss` 内联样式规则区。
 
 ---
 
@@ -254,7 +258,7 @@ bibtex: "ref.bib"          # 可选
 
 **Field rules:**
 - `title`: 与正文中 `# ` 一级标题保持一致。若正文标题含编号（如 `# 第四章 剥削：应用与阐发`），frontmatter 的 title 可省略编号（如 `"分析马克思主义的剥削观：应用与阐发（上）"`）
-- `tags`: 中文标签，2-6 个，按重要性排序。常用标签列表见 `TAG_KEYWORDS`（24 组）
+- `tags`: 中文标签，2-6 个，按重要性排序。常用标签列表见 `TAG_KEYWORDS`（33 组）
 - `cover`: 封面图统一存放于 `public/img/covers/`，命名为 `{slug}.jpg`
 - `wordcount`: 仅统计正文（不含注释），约数百至两万不等
 
@@ -473,6 +477,27 @@ GET /api/data/social    # 社交媒体链接 JSON
 
 ---
 
+## 人格测试（Easter Egg）
+
+首页藏有一个 Konami Code 彩蛋（↑↑↓↓←→←→BA），输入后跳转到 `/test`。
+
+测试为「前沿激进社会思想家人格测试」——30 道情境题覆盖四个维度（世界、技术、共同体、生态），每条选项映射四个思想路径之一（批判型、建构型、解构型、感知型）。
+
+```
+src/app/pages/personality-test/
+├── personality-test.component.ts   # 测试页面：30题渐进式问答
+├── test-result.component.ts        # 结果页面：思想星丛 + 阅读推荐 + 坐标图谱
+└── test-data.ts                    # 数据与引擎：
+                                    #   30 道情境题 + 120 个选项
+                                    #   20 位思想家数据库（含简介、核心思想、5册推荐书目）
+                                    #   100+ 条个性化额外推荐书目（按选项触发）
+                                    #   四维评分引擎 + 思想图谱坐标系统
+```
+
+**评分逻辑**：统计 30 个选项在四个路径上的分布 → 确定支配路径和次要路径 → 从四维方差确定支配维度 → 匹配 4 位思想家构成「星丛」→ 生成个性化阅读清单（含因选项而异的额外推荐）。
+
+---
+
 ## 微信公众号导入工具
 
 `server/utils/wechat-importer.js` 提供两阶段批量导入：
@@ -498,28 +523,47 @@ node server/utils/wechat-importer.js
 
 ### 自动标签关键词映射
 
-24 组标签关键词定义在 `TAG_KEYWORDS` 数组中。英文关键词使用 `\b` 单词边界匹配（防止 "ANT" 误匹配 "participant"），中文关键词使用 `includes()` 子串匹配。
+33 组标签关键词定义在 `TAG_KEYWORDS` 数组中。英文关键词使用 `\b` 单词边界匹配（防止 "ANT" 误匹配 "participant"），中文关键词使用 `includes()` 子串匹配。
 
 ---
 
 ## CSS 设计系统
 
+整体视觉受俄国构成主义（Rodchenko、Lissitzky）启发——几何装饰、工业色调、粗体排版。
+
 `src/styles.scss` 定义全局设计变量和排版：
 
 ```css
---bg: #fafaf8;          /* 背景色（暖白） */
---text: #1a1a1a;        /* 正文色 */
---muted: #6b6b6b;       /* 次要文字 */
---accent: #8b1a2b;      /* 强调色（深红） */
---border: #e0ddd8;      /* 边框色 */
---card-bg: #fff;        /* 卡片背景 */
---link: #8b1a2b;        /* 链接色 */
---max-width: 760px;     /* 正文最大宽度 */
---font-serif: Georgia, 'Noto Serif SC', ...;  /* 衬线字体栈 */
---font-sans: -apple-system, 'PingFang SC', ...; /* 无衬线字体栈 */
+/* 底色系：老纸质暖调 */
+--bg: #ebe6dc;
+--bg-deep: #e2dccf;
+--paper: #f6f1e6;
+
+/* 文本：深墨色，避免数字屏机械感 */
+--text: #171312;
+--muted: #5b544c;
+
+/* 三主色：朱砂红 / 黄 / 墨黑 */
+--accent: #d62828;
+--accent-yellow: #f5b700;
+--accent-black: #171312;
+--accent-ink: #1d1f3a;
+
+--border: #171312;
+--card-bg: #f6f1e6;
+--link: #d62828;
+
+/* 版心 */
+--max-width: 960px;
+--max-width-wide: 1240px;
+
+/* 字体 */
+--font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', ...;
+--font-display: 'Archivo Narrow', 'Archivo', ...;
+--font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
 ```
 
-所有外部字体已移除，使用系统字体栈保证加载速度和跨平台一致性。
+标题使用 Archivo Narrow / Archivo（通过 `fonts.loli.net` CDN 加载），正文使用 Noto Sans SC，代码使用 JetBrains Mono。
 
 ---
 
@@ -529,17 +573,17 @@ node server/utils/wechat-importer.js
 
 | 部分 | 平台 | 地址 |
 |------|------|------|
-| 前端（Angular 静态文件） | Netlify | 由 `netlify.toml` 配置，发布目录 `dist/browser/` |
+| 前端（Angular 静态文件） | Netlify | 发布目录 `dist/`，SPA 回退需配置 `_redirects` 或 `netlify.toml` |
 | 后端（Express API） | Railway | `https://lmaweb-production.up.railway.app` |
 
 ### 前端（Netlify）
 
 ```bash
-npm run build          # → dist/browser/
-# 将 dist/browser/ 部署到 Netlify（自动根据 netlify.toml 配置）
+npm run build          # → dist/
+# 将 dist/ 部署到 Netlify
 ```
 
-`netlify.toml` 配置了 SPA 回退规则（所有非 API 路径 → `index.html`），支持 Angular 客户端路由。
+需确保所有非 API 路径回退到 `index.html`，以支持 Angular 客户端路由。
 
 ### 后端（Railway）
 
@@ -547,24 +591,25 @@ npm run build          # → dist/browser/
 npm start              # Railway 自动执行，Express 在 $PORT 上监听
 ```
 
-Express 提供 `/api/*` 端点，前端通过 `src/environments/environment.prod.ts` 中的 `apiUrl` 指向 Railway 地址。
+Express 提供 `/api/*` 端点。前端 API 地址通过 `src/environments/environment.ts`（开发）和 `environment.prod.ts`（生产）配置，开发环境使用相对路径 `/api`，生产环境指向 Railway 地址。
 
 ### 本地开发
 
-开发模式下，Angular dev server（:4200）通过 `proxy.conf.json` 将 `/api` 请求代理到本地 Express（:3000），前端使用 `environment.ts` 中的相对路径 `/api`。
+开发模式下，Angular dev server（:4200）通过 `proxy.conf.json` 将 `/api` 请求代理到本地 Express（:3000）。
 
 ---
 
 ## 未来完善计划
 
 ### 短期（立即可做）
-- [ ] **RSS/Atom Feed**：基于 `listContent('post')` 生成 XML feed
+- [ ] **RSS/Atom Feed**：`server/utils/generate-feed.js` 已实现基础生成逻辑，需集成到构建流程并自动更新
 - [ ] **封面图片**：47 篇文章均引用 `/img/covers/{slug}.jpg` 占位，需实际制作
 - [ ] **文章类型审查**：44 篇导入文章默认 `type: translation`，需人工审核部分原创或客座文章
 - [ ] **日期校对**：部分导入文章的日期可能不准确，需与公众号原文核对
 - [ ] **内容完善**：出版、项目、资源、讲座目录目前各仅 1-2 条内容，需补充
 
 ### 中期（规划中）
+- [x] **人格测试彩蛋**：Konami Code 触发的前沿思想家人格测试（30题 → 思想星丛匹配 + 个性化书单）
 - [ ] **术语表页面**：扩展 `content/resource/ant-glossary.md` 为交互式术语表
 - [ ] **双语支持**：为术语和关键概念添加中英对照提示（tooltip）
 - [ ] **图片本地化**：将微信图片 URL（`mmbiz.qpic.cn`）下载到本地以避免外链失效

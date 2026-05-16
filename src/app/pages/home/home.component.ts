@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, OnInit, HostListener } from '@angular/core';
+import { RouterLink, Router } from '@angular/router';
 import { NgIf, NgFor } from '@angular/common';
 import { ApiService, ArticleMeta } from '../../services/api.service';
 import { ArticleCardComponent } from '../../shared/article-card/article-card.component';
@@ -434,11 +434,29 @@ export class HomeComponent implements OnInit {
   posts: ArticleMeta[] = [];
   talks: ArticleMeta[] = [];
 
-  constructor(private api: ApiService) {}
+  private konamiBuffer: string[] = [];
+  private readonly konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+  private konamiTriggered = false;
+
+  constructor(private api: ApiService, private router: Router) {}
 
   ngOnInit() {
     this.api.getPosts({ limit: 6 }).subscribe(r => this.posts = r.posts);
     this.api.getTalks().subscribe(t => this.talks = t.slice(0, 3));
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  onKeydown(e: KeyboardEvent) {
+    if (this.konamiTriggered) return;
+    this.konamiBuffer.push(e.key);
+    if (this.konamiBuffer.length > this.konamiCode.length) {
+      this.konamiBuffer.shift();
+    }
+    if (this.konamiBuffer.length === this.konamiCode.length &&
+        this.konamiBuffer.every((k, i) => k === this.konamiCode[i])) {
+      this.konamiTriggered = true;
+      this.router.navigate(['/test']);
+    }
   }
 
   pad(n: number): string { return n.toString().padStart(2, '0'); }

@@ -14,5 +14,7 @@ export const routes: Routes = [
   { path: 'project', loadComponent: () => import('./pages/project-list/project-list.component').then(m => m.ProjectListComponent) },
   { path: 'resource', loadComponent: () => import('./pages/resource-list/resource-list.component').then(m => m.ResourceListComponent) },
   { path: 'talk', loadComponent: () => import('./pages/talk-list/talk-list.component').then(m => m.TalkListComponent) },
+  { path: 'test', loadComponent: () => import('./pages/personality-test/personality-test.component').then(m => m.PersonalityTestComponent) },
+  { path: 'test/result', loadComponent: () => import('./pages/personality-test/test-result.component').then(m => m.TestResultComponent) },
   { path: '**', redirectTo: '' }
 ];
