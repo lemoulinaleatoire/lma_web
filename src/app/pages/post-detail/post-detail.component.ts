@@ -55,7 +55,7 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
           </span>
           <span class="meta-band__item" *ngIf="post['wechat_link']">
             <span class="meta-band__label">来源</span>
-            <a class="meta-band__value link" [href]="post['wechat_link']" target="_blank" rel="noopener">公众号</a>
+            <a class="meta-band__value link" [href]="post['wechat_link']" target="_blank" rel="noopener">{{ sourceLabel }}</a>
           </span>
         </div>
         <div class="tags" *ngIf="post.tags?.length">
@@ -69,7 +69,7 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
         <span class="wc-source__icon" aria-hidden="true">✧</span>
         <span class="wc-source__label">本文首发于</span>
         <a class="wc-source__link" [href]="post['wechat_link']" target="_blank" rel="noopener">
-          微信公众号
+          {{ sourceFullName }}
           <span class="wc-source__arrow" aria-hidden="true">↗</span>
         </a>
       </div>
@@ -401,6 +401,16 @@ export class PostDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute, private api: ApiService) {}
 
   get typeName(): string { return TYPE_NAMES[this.post?.type || ''] || ''; }
+
+  get sourceLabel(): string {
+    const url = this.post?.['wechat_link'] || '';
+    return url.includes('zhihu.com') ? '知乎' : '公众号';
+  }
+
+  get sourceFullName(): string {
+    const url = this.post?.['wechat_link'] || '';
+    return url.includes('zhihu.com') ? '知乎' : '微信公众号';
+  }
 
   ngOnInit() {
     this.route.params.subscribe(params => {
