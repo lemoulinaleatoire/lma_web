@@ -66,12 +66,17 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
       <div class="article-content" [innerHTML]="post.html"></div>
 
       <div class="wc-source" *ngIf="post['wechat_link']">
-        <span class="wc-source__icon" aria-hidden="true">✧</span>
-        <span class="wc-source__label">本文首发于</span>
-        <a class="wc-source__link" [href]="post['wechat_link']" target="_blank" rel="noopener">
-          {{ sourceFullName }}
-          <span class="wc-source__arrow" aria-hidden="true">↗</span>
-        </a>
+        <span class="wc-source__main">
+          <span class="wc-source__icon" aria-hidden="true">✧</span>
+          <span class="wc-source__label">本文首发于</span>
+          <a class="wc-source__link" [href]="post['wechat_link']" target="_blank" rel="noopener">
+            {{ sourceFullName }}
+            <span class="wc-source__arrow" aria-hidden="true">↗</span>
+          </a>
+        </span>
+        <span class="wc-source__also" *ngIf="post['wechat_repost']">
+          另见<a class="wc-source__link" [href]="post['wechat_repost']" target="_blank" rel="noopener">微信公众号转载<span class="wc-source__arrow" aria-hidden="true">↗</span></a>
+        </span>
       </div>
 
       <footer class="article-footer">
@@ -319,9 +324,10 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
 
     .wc-source {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 0.4rem;
       margin: 2rem auto 0;
       padding: 1rem 1.5rem;
       max-width: 720px;
@@ -330,6 +336,18 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
       font-family: var(--font-mono);
       font-size: 0.82rem;
       letter-spacing: 0.06em;
+    }
+    .wc-source__main {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .wc-source__also {
+      color: var(--muted);
+      font-size: 0.9em;
+    }
+    .wc-source__also .wc-source__link {
+      margin-left: 0.3em;
     }
     .wc-source__icon { color: var(--accent); font-size: 1.1em; }
     .wc-source__label { color: var(--muted); font-weight: 500; }
