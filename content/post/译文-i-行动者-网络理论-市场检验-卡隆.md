@@ -1,13 +1,17 @@
 ---
-title: "译文 I 行动者-网络理论：市场检验 (卡隆）"
-date: 2026-01-27
-lastmod: 2026-01-27
-type: "translation"
-author: "Michel Callon"
-tags: ["卡隆", "ANT", "STS"]
-cover: "/img/covers/译文-i-行动者-网络理论-市场检验-卡隆.jpg"
+title: 译文 I 行动者-网络理论：市场检验 (卡隆）
+date: 2026-01-27T00:00:00.000Z
+lastmod: 2026-01-27T00:00:00.000Z
+type: translation
+author: Michel Callon
+tags:
+  - 卡隆
+  - ANT
+  - STS
+cover: /img/covers/译文-i-行动者-网络理论-市场检验-卡隆.jpg
 wordcount: 11539
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/ox5OdJKDI8eUiYV69CR2jQ'
 ---
 
 

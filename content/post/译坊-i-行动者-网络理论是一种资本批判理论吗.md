@@ -1,13 +1,21 @@
 ---
-title: "译坊 I 行动者—网络理论是一种资本批判理论吗？"
-date: 2026-02-12
-lastmod: 2026-02-12
-type: "translation"
-author: "Fabian Muniesa"
-tags: ["拉图尔", "德勒兹", "卡隆", "ANT", "资本主义批判", "翻译研究", "生态学"]
-cover: "/img/covers/译坊-i-行动者-网络理论是一种资本批判理论吗.jpg"
+title: 译坊 I 行动者—网络理论是一种资本批判理论吗？
+date: 2026-02-12T00:00:00.000Z
+lastmod: 2026-02-12T00:00:00.000Z
+type: translation
+author: Fabian Muniesa
+tags:
+  - 拉图尔
+  - 德勒兹
+  - 卡隆
+  - ANT
+  - 资本主义批判
+  - 翻译研究
+  - 生态学
+cover: /img/covers/译坊-i-行动者-网络理论是一种资本批判理论吗.jpg
 wordcount: 16189
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/LMiyiAeC7neE0DrgYn73MQ'
 ---
 
 ## 译者按

@@ -1,13 +1,21 @@
 ---
-title: "译文 I 我们（仍然）生活在计算机模拟中吗？阿尔都塞与图灵（上）"
-date: 2025-01-01
-lastmod: 2025-01-01
-type: "translation"
-author: "Jason Barker"
-tags: ["阿尔都塞", "斯宾诺莎", "相遇唯物主义", "意识形态理论", "剥削与阶级", "帝国主义与殖民", "人工智能"]
-cover: "/img/covers/译文-i-我们-仍然-生活在计算机模拟中吗-阿尔都塞与图灵-上.jpg"
+title: 译文 I 我们（仍然）生活在计算机模拟中吗？阿尔都塞与图灵（上）
+date: 2025-01-01T00:00:00.000Z
+lastmod: 2025-01-01T00:00:00.000Z
+type: translation
+author: Jason Barker
+tags:
+  - 阿尔都塞
+  - 斯宾诺莎
+  - 相遇唯物主义
+  - 意识形态理论
+  - 剥削与阶级
+  - 帝国主义与殖民
+  - 人工智能
+cover: /img/covers/译文-i-我们-仍然-生活在计算机模拟中吗-阿尔都塞与图灵-上.jpg
 wordcount: 12578
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/N5KAO9kmgbQaVn0MoycmLA'
 ---
 
 

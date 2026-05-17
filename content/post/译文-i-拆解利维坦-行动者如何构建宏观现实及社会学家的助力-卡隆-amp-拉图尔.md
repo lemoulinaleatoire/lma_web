@@ -1,13 +1,22 @@
 ---
-title: "译文 I 拆解利维坦：行动者如何构建宏观现实及社会学家的助力（卡隆&amp;拉图尔）"
-date: 2025-01-01
-lastmod: 2025-01-01
-type: "translation"
-author: "Michel Callon & Bruno Latour"
-tags: ["拉图尔", "布尔迪厄", "德勒兹", "卡隆", "ANT", "STS", "意识形态理论", "翻译研究"]
-cover: "/img/covers/译文-i-拆解利维坦-行动者如何构建宏观现实及社会学家的助力-卡隆-amp-拉图尔.jpg"
+title: 译文 I 拆解利维坦：行动者如何构建宏观现实及社会学家的助力（卡隆&amp;拉图尔）
+date: 2025-01-01T00:00:00.000Z
+lastmod: 2025-01-01T00:00:00.000Z
+type: translation
+author: Michel Callon & Bruno Latour
+tags:
+  - 拉图尔
+  - 布尔迪厄
+  - 德勒兹
+  - 卡隆
+  - ANT
+  - STS
+  - 意识形态理论
+  - 翻译研究
+cover: /img/covers/译文-i-拆解利维坦-行动者如何构建宏观现实及社会学家的助力-卡隆-amp-拉图尔.jpg
 wordcount: 25682
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/VNfXNWsXBghGmYDTL_hKRA'
 ---
 
 ## 译者按

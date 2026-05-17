@@ -1,13 +1,22 @@
 ---
-title: "译坊 I 幽灵写作（佳亚特里·斯皮瓦克）"
-date: 2026-02-19
-lastmod: 2026-02-19
-type: "translation"
-author: "Gayatri C. Spivak"
-tags: ["阿尔都塞", "斯皮瓦克", "意识形态理论", "后结构主义", "现象学", "资本主义批判", "帝国主义与殖民", "女性主义"]
-cover: "/img/covers/译坊-i-幽灵写作-佳亚特里-斯皮瓦克.jpg"
+title: 译坊 I 幽灵写作（佳亚特里·斯皮瓦克）
+date: 2026-02-19T00:00:00.000Z
+lastmod: 2026-02-19T00:00:00.000Z
+type: translation
+author: Gayatri C. Spivak
+tags:
+  - 阿尔都塞
+  - 斯皮瓦克
+  - 意识形态理论
+  - 后结构主义
+  - 现象学
+  - 资本主义批判
+  - 帝国主义与殖民
+  - 女性主义
+cover: /img/covers/译坊-i-幽灵写作-佳亚特里-斯皮瓦克.jpg
 wordcount: 33373
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/_ezOjed1R-HRErqOdqJ6JQ'
 ---
 
 ## 译者按

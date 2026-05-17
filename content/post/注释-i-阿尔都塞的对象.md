@@ -1,13 +1,20 @@
 ---
-title: "注释 I 阿尔都塞的对象"
-date: 2026-01-18
-lastmod: 2026-01-18
-type: "post"
-author: "Étienne Balibar"
-tags: ["阿尔都塞", "斯宾诺莎", "福柯", "德勒兹", "认识论", "剥削与阶级"]
-cover: "/img/covers/注释-i-阿尔都塞的对象.jpg"
+title: 注释 I 阿尔都塞的对象
+date: 2026-01-18T00:00:00.000Z
+lastmod: 2026-01-18T00:00:00.000Z
+type: post
+author: Étienne Balibar
+tags:
+  - 阿尔都塞
+  - 斯宾诺莎
+  - 福柯
+  - 德勒兹
+  - 认识论
+  - 剥削与阶级
+cover: /img/covers/注释-i-阿尔都塞的对象.jpg
 wordcount: 7266
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/w8i3fbBgK0ep1jwJqZXqmQ'
 ---
 
 ## 编者按

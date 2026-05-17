@@ -1,13 +1,19 @@
 ---
-title: "译文 I《阿尔都塞的对象》（一）"
-date: 2026-01-16
-lastmod: 2026-01-16
-type: "translation"
-author: "Étienne Balibar"
-tags: ["阿尔都塞", "斯宾诺莎", "现象学", "认识论", "剥削与阶级"]
-cover: "/img/covers/译文-i-阿尔都塞的对象-一.jpg"
+title: 译文 I《阿尔都塞的对象》（一）
+date: 2026-01-16T00:00:00.000Z
+lastmod: 2026-01-16T00:00:00.000Z
+type: translation
+author: Étienne Balibar
+tags:
+  - 阿尔都塞
+  - 斯宾诺莎
+  - 现象学
+  - 认识论
+  - 剥削与阶级
+cover: /img/covers/译文-i-阿尔都塞的对象-一.jpg
 wordcount: 5139
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/yjZQnetRwxVT4R7Oc9mBOA'
 ---
 
 ## 译者按

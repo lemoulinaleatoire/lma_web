@@ -1,13 +1,22 @@
 ---
-title: "译文 I 后现代之后的组织理论：反思与潜在方向"
-date: 2025-01-01
-lastmod: 2025-01-01
-type: "translation"
-author: "Marta B. Calas & Linda Smircich"
-tags: ["阿尔都塞", "拉图尔", "福柯", "德勒兹", "卡隆", "ANT", "STS", "后结构主义"]
-cover: "/img/covers/译文-i-后现代之后的组织理论-反思与潜在方向.jpg"
+title: 译文 I 后现代之后的组织理论：反思与潜在方向
+date: 2025-01-01T00:00:00.000Z
+lastmod: 2025-01-01T00:00:00.000Z
+type: translation
+author: Marta B. Calas & Linda Smircich
+tags:
+  - 阿尔都塞
+  - 拉图尔
+  - 福柯
+  - 德勒兹
+  - 卡隆
+  - ANT
+  - STS
+  - 后结构主义
+cover: /img/covers/译文-i-后现代之后的组织理论-反思与潜在方向.jpg
 wordcount: 29812
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/Copab78BA8TLq5lZfI-teg'
 ---
 
 ## 译者按

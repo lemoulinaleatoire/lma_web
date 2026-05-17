@@ -1,13 +1,15 @@
 ---
-title: "译坊 I 能动性、制度与时空分析（吉登斯）"
-date: 2026-02-15
-lastmod: 2026-02-15
-type: "translation"
-author: "Anthony Giddens"
-tags: ["吉登斯"]
-cover: "/img/covers/译坊-i-能动性-制度与时空分析-吉登斯.jpg"
+title: 译坊 I 能动性、制度与时空分析（吉登斯）
+date: 2026-02-15T00:00:00.000Z
+lastmod: 2026-02-15T00:00:00.000Z
+type: translation
+author: Anthony Giddens
+tags:
+  - 吉登斯
+cover: /img/covers/译坊-i-能动性-制度与时空分析-吉登斯.jpg
 wordcount: 10543
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/UoF8MbKoQiXO5JtHzsYzmw'
 ---
 
 ## 译者按
@@ -33,6 +35,8 @@ license: "CC BY-NC 4.0"
 
 显然，非预期后果在此对社会变迁的解释起到了关键作用，因为正是它们可能决定性地使社会行动偏离既定的结构化路径。不过需要注意的是，从本章来看，“宏观”层面与其说是由微观行动产生的不可预见效应所构成，不如说是一个由（据推测）共同的规则与资源结构所组成的层面，这些结构在社会行动中被持续地重新具体化。
 1
+
+![](/img/content/译坊-i-能动性-制度与时空分析-吉登斯/01.png)
 
 **行动理论与制度分析之间的鸿沟**
 

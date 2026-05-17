@@ -1,13 +1,20 @@
 ---
-title: "译文 I 技术是固化的社会关系"
-date: 2026-01-19
-lastmod: 2026-01-19
-type: "translation"
-author: "Bruno Latour"
-tags: ["拉图尔", "卡隆", "ANT", "STS", "认识论", "技术哲学"]
-cover: "/img/covers/译文-i-技术是固化的社会关系.jpg"
+title: 译文 I 技术是固化的社会关系
+date: 2026-01-19T00:00:00.000Z
+lastmod: 2026-01-19T00:00:00.000Z
+type: translation
+author: Bruno Latour
+tags:
+  - 拉图尔
+  - 卡隆
+  - ANT
+  - STS
+  - 认识论
+  - 技术哲学
+cover: /img/covers/译文-i-技术是固化的社会关系.jpg
 wordcount: 24440
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/7dK_f8OAEcQuVCanwYCriw'
 ---
 
 

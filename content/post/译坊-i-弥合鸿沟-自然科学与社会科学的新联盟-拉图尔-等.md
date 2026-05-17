@@ -1,16 +1,24 @@
 ---
-title: "译坊 I 弥合鸿沟：自然科学与社会科学的新联盟（拉图尔 等）"
-date: 2015-03-31
-lastmod: 2015-03-31
-type: "translation"
-author: "Tommaso Venturini, Pablo Jensen, Bruno Latour"
-tags: ["拉图尔", "吉登斯", "数字方法", "生态学", "媒介研究"]
-cover: "/img/covers/译坊-i-弥合鸿沟-自然科学与社会科学的新联盟-拉图尔-等.jpg"
+title: 译坊 I 弥合鸿沟：自然科学与社会科学的新联盟（拉图尔 等）
+date: 2015-03-31T00:00:00.000Z
+lastmod: 2015-03-31T00:00:00.000Z
+type: translation
+author: 'Tommaso Venturini, Pablo Jensen, Bruno Latour'
+tags:
+  - 拉图尔
+  - 吉登斯
+  - 数字方法
+  - 生态学
+  - 媒介研究
+cover: /img/covers/译坊-i-弥合鸿沟-自然科学与社会科学的新联盟-拉图尔-等.jpg
 wordcount: 10726
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/l4Sd9VPxOgcDA4-56cGX_g'
 ---
 
 ## 译者按
+
+![](/img/content/译坊-i-弥合鸿沟-自然科学与社会科学的新联盟-拉图尔-等/01.png)
 
 > Translator Notes
 

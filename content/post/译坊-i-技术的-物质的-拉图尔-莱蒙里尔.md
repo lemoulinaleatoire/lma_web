@@ -1,13 +1,17 @@
 ---
-title: "译坊 I 技术的≠物质的（拉图尔→莱蒙里尔）"
-date: 2026-04-19
-lastmod: 2026-04-19
-type: "translation"
-author: "Bruno Latour"
-tags: ["拉图尔", "现象学", "翻译研究"]
-cover: "/img/covers/译坊-i-技术的-物质的-拉图尔-莱蒙里尔.jpg"
+title: 译坊 I 技术的≠物质的（拉图尔→莱蒙里尔）
+date: 2026-04-19T00:00:00.000Z
+lastmod: 2026-04-19T00:00:00.000Z
+type: translation
+author: Bruno Latour
+tags:
+  - 拉图尔
+  - 现象学
+  - 翻译研究
+cover: /img/covers/译坊-i-技术的-物质的-拉图尔-莱蒙里尔.jpg
 wordcount: 4550
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/_Fz5zZ4bIl5tnEgcQmCm4w'
 ---
 
 ## 译者按
@@ -30,6 +34,7 @@ license: "CC BY-NC 4.0"
 
 然而，由于要反驳忽视技术学的同行，他的早期论述反而陷入了一种偏向，频繁使用“不仅…而且…”的句式：“不仅是符号的，而且是物质的”，或“不仅是物质的，而且是符号的”。借用Whitehead的说法，我将这种研究技术的方式称为二分法bifurcated way：对物质世界的实践被归为一类，符号实践被归为另一类。人类学家所接触的事物，一旦不符合西方视角下的物质性定义，便被划定出二者的边界：边界之内的一切被判定为技术的（technical，即有效用的），边界之外则被视为非技术的（non-technical，即冗余、多余、过度设计、非功能性的），需要额外加以解释。多年来，我与Lemonnier一直共同探讨此问题，毕竟我们都试图摆脱这种在认识论与技术研究中同样有害的表述范式（Latour and Lemonnier 1994）。
 
+![](/img/content/译坊-i-技术的-物质的-拉图尔-莱蒙里尔/01.jpeg)
 
 这部新作标志着一次彻底的转向：Lemonnier在搁置技术研究数年后重返这一议题，提出了一套全新的阐释，彻底摆脱了他早年虽批判但又无意间强化的二分法。在我看来，他的论点仍需稍作补充才能更具说服力，因此我将在下文简要强调几点补充论证。
 

@@ -1,13 +1,19 @@
 ---
-title: "译文 I 理论化后人类主义"
-date: 2026-02-03
-lastmod: 2026-02-03
-type: "translation"
-author: "Neil Badmington"
-tags: ["阿尔都塞", "福柯", "斯皮瓦克", "后结构主义", "认识论"]
-cover: "/img/covers/译文-i-理论化后人类主义.jpg"
+title: 译文 I 理论化后人类主义
+date: 2026-02-03T00:00:00.000Z
+lastmod: 2026-02-03T00:00:00.000Z
+type: translation
+author: Neil Badmington
+tags:
+  - 阿尔都塞
+  - 福柯
+  - 斯皮瓦克
+  - 后结构主义
+  - 认识论
+cover: /img/covers/译文-i-理论化后人类主义.jpg
 wordcount: 22472
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/C9PBVx0Z0MQXEfdNnA-3Cw'
 ---
 
 ## 译者按

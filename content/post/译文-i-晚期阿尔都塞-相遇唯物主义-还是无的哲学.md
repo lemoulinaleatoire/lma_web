@@ -1,13 +1,22 @@
 ---
-title: "译文 I 晚期阿尔都塞：相遇唯物主义，还是无的哲学？"
-date: 2026-01-31
-lastmod: 2026-01-31
-type: "translation"
-author: "Warren Montag"
-tags: ["阿尔都塞", "斯宾诺莎", "福柯", "德勒兹", "ANT", "相遇唯物主义", "意识形态理论", "现象学"]
-cover: "/img/covers/译文-i-晚期阿尔都塞-相遇唯物主义-还是无的哲学.jpg"
+title: 译文 I 晚期阿尔都塞：相遇唯物主义，还是无的哲学？
+date: 2026-01-31T00:00:00.000Z
+lastmod: 2026-01-31T00:00:00.000Z
+type: translation
+author: Warren Montag
+tags:
+  - 阿尔都塞
+  - 斯宾诺莎
+  - 福柯
+  - 德勒兹
+  - ANT
+  - 相遇唯物主义
+  - 意识形态理论
+  - 现象学
+cover: /img/covers/译文-i-晚期阿尔都塞-相遇唯物主义-还是无的哲学.jpg
 wordcount: 20272
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/zIJl2cO-SGZVzIqMCPyj1Q'
 ---
 
 ## 译者按

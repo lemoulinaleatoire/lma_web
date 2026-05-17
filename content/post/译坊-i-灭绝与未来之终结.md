@@ -1,13 +1,16 @@
 ---
-title: "译坊 I 灭绝与未来之终结"
-date: 2026-04-12
-lastmod: 2026-04-12
-type: "translation"
-author: "Dolly Jorgensen"
-tags: ["帝国主义与殖民", "生态学"]
-cover: "/img/covers/译坊-i-灭绝与未来之终结.jpg"
+title: 译坊 I 灭绝与未来之终结
+date: 2026-04-12T00:00:00.000Z
+lastmod: 2026-04-12T00:00:00.000Z
+type: translation
+author: Dolly Jorgensen
+tags:
+  - 帝国主义与殖民
+  - 生态学
+cover: /img/covers/译坊-i-灭绝与未来之终结.jpg
 wordcount: 7836
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/wbiatz9G0iyTpo97vfOdGw'
 ---
 
 ## 译者按

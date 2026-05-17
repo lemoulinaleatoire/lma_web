@@ -53,6 +53,10 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
             <span class="meta-band__label">许可</span>
             <span class="meta-band__value">{{ post.license }}</span>
           </span>
+          <span class="meta-band__item" *ngIf="post['wechat_link']">
+            <span class="meta-band__label">来源</span>
+            <a class="meta-band__value link" [href]="post['wechat_link']" target="_blank" rel="noopener">公众号</a>
+          </span>
         </div>
         <div class="tags" *ngIf="post.tags?.length">
           <a *ngFor="let t of post.tags" [routerLink]="['/tag', t]" class="tag">#{{ t }}</a>
@@ -60,6 +64,15 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
       </header>
 
       <div class="article-content" [innerHTML]="post.html"></div>
+
+      <div class="wc-source" *ngIf="post['wechat_link']">
+        <span class="wc-source__icon" aria-hidden="true">✧</span>
+        <span class="wc-source__label">本文首发于</span>
+        <a class="wc-source__link" [href]="post['wechat_link']" target="_blank" rel="noopener">
+          微信公众号
+          <span class="wc-source__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
 
       <footer class="article-footer">
         <div class="article-footer__rail" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -238,6 +251,100 @@ import { ApiService, ArticleMeta, TYPE_NAMES } from '../../services/api.service'
       font-family: var(--font-display);
       letter-spacing: -0.02em;
     }
+
+    /* Dialogue layout — SHE / HE speaker markers */
+    .article-content ::ng-deep .dlg-speaker {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2.25rem 0 0.5rem;
+      padding: 0.55rem 0;
+      font-family: var(--font-mono);
+      font-weight: 900;
+      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      border-bottom: 3px solid;
+      position: relative;
+    }
+    .article-content ::ng-deep .dlg-speaker::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 1.2rem;
+      height: 3px;
+    }
+    .article-content ::ng-deep .dlg-avatar {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      border: 3px solid;
+      flex-shrink: 0;
+      margin: 0;
+    }
+    .article-content ::ng-deep .dlg-she {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .article-content ::ng-deep .dlg-she::after {
+      background: var(--accent-black);
+    }
+    .article-content ::ng-deep .dlg-she .dlg-avatar {
+      border-color: var(--accent);
+    }
+    .article-content ::ng-deep .dlg-he {
+      color: var(--accent-black);
+      border-bottom-color: var(--accent-black);
+    }
+    .article-content ::ng-deep .dlg-he::after {
+      background: var(--accent);
+    }
+    .article-content ::ng-deep .dlg-he .dlg-avatar {
+      border-color: var(--accent-black);
+    }
+
+    @media (max-width: 600px) {
+      .article-content ::ng-deep .dlg-speaker {
+        margin: 1.5rem 0 0.35rem;
+        padding: 0.4rem 0;
+        font-size: 0.75rem;
+        gap: 0.5rem;
+      }
+      .article-content ::ng-deep .dlg-avatar {
+        width: 34px;
+        height: 34px;
+      }
+    }
+
+    .wc-source {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin: 2rem auto 0;
+      padding: 1rem 1.5rem;
+      max-width: 720px;
+      background: var(--paper);
+      border: 2px solid var(--border);
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+    }
+    .wc-source__icon { color: var(--accent); font-size: 1.1em; }
+    .wc-source__label { color: var(--muted); font-weight: 500; }
+    .wc-source__link {
+      color: #07C160;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25em;
+    }
+    .wc-source__link:hover { background: #07C160; color: #fff; text-decoration: none; padding: 0.15em 0.4em; }
+    .wc-source__arrow { font-size: 0.9em; }
 
     .article-footer {
       margin-top: 3rem;

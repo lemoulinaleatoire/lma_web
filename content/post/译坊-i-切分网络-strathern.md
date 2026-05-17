@@ -1,13 +1,17 @@
 ---
-title: "译坊 I 切分网络（Strathern）"
-date: 2026-03-05
-lastmod: 2026-03-05
-type: "translation"
-author: "Marilyn Strathern"
-tags: ["拉图尔", "后结构主义", "女性主义"]
-cover: "/img/covers/译坊-i-切分网络-strathern.jpg"
+title: 译坊 I 切分网络（Strathern）
+date: 2026-03-05T00:00:00.000Z
+lastmod: 2026-03-05T00:00:00.000Z
+type: translation
+author: Marilyn Strathern
+tags:
+  - 拉图尔
+  - 后结构主义
+  - 女性主义
+cover: /img/covers/译坊-i-切分网络-strathern.jpg
 wordcount: 30431
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/-7LOIHcpFV_PHchXN_gPeQ'
 ---
 
 ## 译者按

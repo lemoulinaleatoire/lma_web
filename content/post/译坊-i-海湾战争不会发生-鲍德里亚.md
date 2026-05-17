@@ -1,13 +1,15 @@
 ---
-title: "译坊 I 海湾战争不会发生（鲍德里亚）"
-date: 2026-03-06
-lastmod: 2026-03-06
-type: "translation"
-author: "Jean Baudrillard"
-tags: ["鲍德里亚"]
-cover: "/img/covers/译坊-i-海湾战争不会发生-鲍德里亚.jpg"
+title: 译坊 I 海湾战争不会发生（鲍德里亚）
+date: 2026-03-06T00:00:00.000Z
+lastmod: 2026-03-06T00:00:00.000Z
+type: translation
+author: Jean Baudrillard
+tags:
+  - 鲍德里亚
+cover: /img/covers/译坊-i-海湾战争不会发生-鲍德里亚.jpg
 wordcount: 6287
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/Csp3-kVNv__QGpfFhUWasw'
 ---
 
 ## 译者按

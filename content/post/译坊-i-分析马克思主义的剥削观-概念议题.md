@@ -1,13 +1,17 @@
 ---
-title: "译坊 I 分析马克思主义的剥削观——概念议题"
-date: 2026-03-21
-lastmod: 2026-03-21
-type: "translation"
-author: "Tom Mayer"
-tags: ["分析马克思主义", "剥削与阶级", "资本主义批判"]
-cover: "/img/covers/译坊-i-分析马克思主义的剥削观-概念议题.jpg"
+title: 译坊 I 分析马克思主义的剥削观——概念议题
+date: 2026-03-21T00:00:00.000Z
+lastmod: 2026-03-21T00:00:00.000Z
+type: translation
+author: Tom Mayer
+tags:
+  - 分析马克思主义
+  - 剥削与阶级
+  - 资本主义批判
+cover: /img/covers/译坊-i-分析马克思主义的剥削观-概念议题.jpg
 wordcount: 19538
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/-Sc9V2-Oy92CpFNWfZjexw'
 ---
 
 ## 译者按

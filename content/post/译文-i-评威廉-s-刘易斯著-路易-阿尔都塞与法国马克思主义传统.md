@@ -1,13 +1,18 @@
 ---
-title: "译文 I 评威廉·S. 刘易斯著《路易·阿尔都塞与法国马克思主义传统》"
-date: 2026-01-10
-lastmod: 2026-01-10
-type: "translation"
-author: "Matt Bonal"
-tags: ["阿尔都塞", "斯宾诺莎", "剥削与阶级", "发刊词"]
-cover: "/img/covers/译文-i-评威廉-s-刘易斯著-路易-阿尔都塞与法国马克思主义传统.jpg"
+title: 译文 I 评威廉·S. 刘易斯著《路易·阿尔都塞与法国马克思主义传统》
+date: 2026-01-10T00:00:00.000Z
+lastmod: 2026-01-10T00:00:00.000Z
+type: translation
+author: Matt Bonal
+tags:
+  - 阿尔都塞
+  - 斯宾诺莎
+  - 剥削与阶级
+  - 发刊词
+cover: /img/covers/译文-i-评威廉-s-刘易斯著-路易-阿尔都塞与法国马克思主义传统.jpg
 wordcount: 3589
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/GkGGrqlzBtezRZ5HlTbZXw'
 ---
 
 ## 译者按

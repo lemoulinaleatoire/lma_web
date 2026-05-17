@@ -1,16 +1,26 @@
 ---
-title: "译坊 I 论资本主义的诸情动（拉图尔）"
-date: 2026-03-02
-lastmod: 2026-03-02
-type: "translation"
-author: "Bruno Latour"
-tags: ["拉图尔", "福柯", "ANT", "STS", "资本主义批判", "生态学", "组织理论"]
-cover: "/img/covers/译坊-i-论资本主义的诸情动-拉图尔.jpg"
+title: 译坊 I 论资本主义的诸情动（拉图尔）
+date: 2026-03-02T00:00:00.000Z
+lastmod: 2026-03-02T00:00:00.000Z
+type: translation
+author: Bruno Latour
+tags:
+  - 拉图尔
+  - 福柯
+  - ANT
+  - STS
+  - 资本主义批判
+  - 生态学
+  - 组织理论
+cover: /img/covers/译坊-i-论资本主义的诸情动-拉图尔.jpg
 wordcount: 15151
-license: "CC BY-NC 4.0"
+license: CC BY-NC 4.0
+wechat_link: 'https://mp.weixin.qq.com/s/w7qMkirIvdh9VV1UqcdzxA'
 ---
 
 ## 译者按
+
+![](/img/content/译坊-i-论资本主义的诸情动-拉图尔/01.jpeg)
 
 > Translator Notes
 
