@@ -23,12 +23,7 @@ import { ArticleCardComponent } from '../../shared/article-card/article-card.com
       <div class="hero-halftone constr-halftone-red" aria-hidden="true"></div>
       <div class="hero-vlabel" aria-hidden="true">МАНИФЕСТ — RU/CN/EN — 2026</div>
 
-      <div class="hero-geo" aria-hidden="true">
-        <div class="geo-circle"></div>
-        <div class="geo-bar"></div>
-        <div class="geo-triangle"></div>
-        <div class="geo-square"></div>
-      </div>
+      <img src="/img/logo-transparent.png" alt="" class="hero-logo" aria-hidden="true">
 
       <div class="hero-content">
         <div class="hero-meta">
@@ -252,22 +247,20 @@ import { ArticleCardComponent } from '../../shared/article-card/article-card.com
 
     .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-    /* 几何叠印 */
-    .hero-geo {
+    /* Logo 叠印 */
+    .hero-logo {
       position: absolute;
       top: 50%;
-      right: 7%;
+      right: 10%;
       transform: translateY(-50%);
-      z-index: 3;
-      width: 360px;
-      height: 360px;
+      width: 400px;
+      height: 400px;
+      object-fit: contain;
+      opacity: 1;
+      filter: blur(0);
       pointer-events: none;
+      z-index: 3;
     }
-    .hero-geo > * { position: absolute; mix-blend-mode: multiply; }
-    .geo-circle { top: 0; right: 60px; width: 200px; height: 200px; background: var(--accent); border-radius: 50%; }
-    .geo-bar { top: 165px; left: 0; width: 280px; height: 28px; background: var(--accent-yellow); }
-    .geo-triangle { bottom: 30px; right: 20px; width: 0; height: 0; border-style: solid; border-width: 0 0 100px 100px; border-color: transparent transparent var(--accent-black) transparent; }
-    .geo-square { bottom: 18px; left: 100px; width: 50px; height: 50px; background: var(--accent-ink); transform: rotate(15deg); }
 
     /* 钢轨分隔 */
     .hero-railway {
@@ -408,20 +401,14 @@ import { ArticleCardComponent } from '../../shared/article-card/article-card.com
 
     /* ===== 响应式 ===== */
     @media (max-width: 900px) {
-      .hero-geo {
-        width: 220px; height: 220px;
-        right: 1rem; top: 1rem; transform: none;
-      }
-      .geo-circle { width: 120px; height: 120px; right: 0; top: 0; }
-      .geo-bar { width: 170px; height: 18px; top: 100px; }
-      .geo-triangle { border-width: 0 0 60px 60px; bottom: 10px; right: 5px; }
-      .geo-square { width: 30px; height: 30px; left: 60px; bottom: 0; }
+      .hero-logo { width: 280px; height: 280px; right: 4%; opacity: 1; filter: blur(0); }
       .hero-vlabel { display: none; }
     }
     @media (max-width: 600px) {
       .hero { padding: 3rem 0 2.5rem; margin-bottom: 2.5rem; }
       .hero-content { padding: 0 1rem; }
       .hero-railway { padding: 0 1rem; }
+      .hero-logo { display: none; }
       .hero-strip__no { font-size: 0.7rem; padding: 0.55rem 0.85rem; }
       .hero-strip__marquee { font-size: 0.7rem; }
       .featured-wrap { flex-direction: column; gap: 0.75rem; padding: 1rem; }

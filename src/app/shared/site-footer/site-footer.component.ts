@@ -22,6 +22,9 @@ import { RouterLink } from '@angular/router';
         </div>
 
         <div class="footer-brand">
+          <div class="footer-logo-wrap" aria-hidden="true">
+            <img src="/img/logo-transparent.png" alt="" class="footer-logo">
+          </div>
           <div class="footer-brand__title">
             <span class="brand-line1">LE MOULIN</span>
             <span class="brand-line2">AL<span class="acc">É</span>ATOIRE</span>
@@ -111,6 +114,21 @@ import { RouterLink } from '@angular/router';
 
     .footer-brand {
       margin-bottom: 2rem;
+    }
+    .footer-logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1rem;
+      opacity: 0.4;
+    }
+    .footer-logo {
+      width: 52px;
+      height: 52px;
+      object-fit: contain;
+      filter: invert(1);
     }
     .footer-brand__title {
       font-family: var(--font-display);

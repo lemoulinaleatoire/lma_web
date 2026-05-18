@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
       <div class="header-accent-bar"></div>
       <div class="header-inner">
         <a routerLink="/" class="site-title">
+          <img src="/img/logo-transparent.png" alt="" class="site-logo" aria-hidden="true">
           <span class="site-title-main">Le Moulin</span>
           <span class="site-title-sub">Al<span class="acc">é</span>atoire</span>
         </a>
@@ -99,9 +100,15 @@ import { FormsModule } from '@angular/forms';
       white-space: nowrap;
       line-height: 1;
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 0.35rem;
       letter-spacing: -0.04em;
+    }
+    .site-logo {
+      height: 32px;
+      width: 32px;
+      object-fit: contain;
+      flex-shrink: 0;
     }
     .site-title-main { letter-spacing: -0.04em; }
     .site-title-sub {
@@ -178,6 +185,7 @@ import { FormsModule } from '@angular/forms';
     }
     @media (max-width: 768px) {
       .header-inner { flex-wrap: wrap; justify-content: center; padding: 0.5rem 1rem; }
+      .site-logo { height: 26px; width: 26px; }
       nav { flex-wrap: wrap; justify-content: center; }
       nav a { padding: 0.35rem 0.55rem; }
       .search-mini input { width: 100px; }

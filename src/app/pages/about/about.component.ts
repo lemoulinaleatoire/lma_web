@@ -27,13 +27,13 @@ import { Component } from '@angular/core';
         <div class="constr-sect-label">
           <span class="constr-sect-label__no">№ 07·1</span>
           <span class="constr-sect-label__rule constr-sect-label__rule--thick"></span>
-          <span class="constr-sect-label__title">我是谁</span>
+          <span class="constr-sect-label__title">我们是谁</span>
           <span class="constr-sect-label__rule"></span>
         </div>
         <ul>
-          <li><strong>译者</strong> ─ 系统译介当代欧陆哲学、批判理论与人文社科的关键文本，让异域的星火借汉语再次燃烧</li>
-          <li><strong>研究者</strong> ─ 在偶然唯物主义的视野下，于哲学、社会理论与科学技术研究的歧路里再开一条歧路</li>
-          <li><strong>写作者</strong> ─ 拒绝填充中产书架的姿态，把书写当作面向崭新未来的长程战略，而非应景的策略</li>
+          <li><strong>译者</strong> ─ 译介当代哲学社会科学、批判理论与人文社科的文本，吸收斗争经验、确立立场地反复研磨</li>
+          <li><strong>研究者</strong> ─ 在这个看似封闭的必然性秩序中，挖掘一条偶然开辟的道路，歧路的歧路</li>
+          <li><strong>写作者</strong> ─ 当风经过，风车便开始转动，将那些虚无缥缈的能量，转化为实实在在的介入</li>
         </ul>
       </div>
 
@@ -46,10 +46,10 @@ import { Component } from '@angular/core';
           <span class="constr-sect-label__rule"></span>
         </div>
         <ul>
-          <li>偶然唯物主义视野下的当代理论与历史问题</li>
-          <li>欧陆哲学、批判理论、马克思主义传统在汉语世界的转译与再生</li>
-          <li>科学技术研究、媒介与算法批判，以及未来主义—加速主义的诸种支流</li>
-          <li>翻译作为方法论，也作为政治姿态：在沉默的虚空中高声言说</li>
+          <li>偶然相遇的唯物主义视野下的当代理论与历史问题</li>
+          <li>欧陆哲学、批判理论、马克思主义传统在汉语世界的研磨、改造与生产</li>
+          <li>科学技术研究、媒介与算法批判，以及前沿求索的诸种支流</li>
+          <li>试图捕捉那些被主流秩序排斥到边缘和虚空中的力量</li>
         </ul>
       </div>
     </div>
@@ -63,8 +63,8 @@ import { Component } from '@angular/core';
         <span class="constr-sect-label__rule"></span>
       </div>
       <div class="block-content">
-        <p>本站所有原创内容均采用 <strong>CC BY-NC-SA 4.0</strong> 许可协议发布；译文根据原文授权情况，通常采用 <strong>CC BY-NC 4.0</strong>。如无特别说明，所有翻译均为本人译出，引用请注明出处。</p>
-        <p class="meta-line"><span class="meta-key">微信公众号</span><code>le_moulin_aleatoire</code></p>
+        <p>本站所有原创内容均采用 <strong>CC BY-NC-SA 4.0</strong> 许可协议发布；译文根据原文授权情况，通常采用 <strong>CC BY-NC 4.0</strong>。如无特别说明，所有翻译均为随机轮编辑部译出，引用请注明出处。</p>
+        <p class="meta-line"><span class="meta-key">微信公众号</span><code>Le Moulin Aleatoire</code></p>
         <p><img src="/img/qrcode-wechat.jpg" alt="微信公众号二维码" class="qr-code"></p>
       </div>
     </div>
@@ -78,8 +78,8 @@ import { Component } from '@angular/core';
         <span class="constr-sect-label__rule cta-rule-thin"></span>
       </div>
       <div class="block-content">
-        <p>本博客的翻译项目、术语表、资源库均开放协作。如果你认同这座风车迎风而立的姿态，愿意一同修缮叶片，欢迎通过邮件或 GitHub Issue 与我联系。</p>
-        <p class="meta-line"><span class="meta-key">📧</span><code class="cta-code">yourname&#64;example.com</code></p>
+        <p>Le Moulin Aleatoire的翻译项目、资源库均开放协作。如果你认同这座风车迎风而立的姿态，愿在理论的荒原上，为一种“崭新的未来”做准备，欢迎通过邮件或 GitHub Issue 与我们联系。</p>
+        <p class="meta-line"><span class="meta-key">📧</span><code class="cta-code">blade&#64;lemoulinaleatoire.org</code></p>
       </div>
       <span class="cta-triangle" aria-hidden="true"></span>
     </div>
